@@ -1,0 +1,15 @@
+.header{
+    background-color: lightblue;
+    font-family: Verdana;
+    text-align: center;
+    color: blue;
+    padding: 15px;
+    font-size: 50px;
+}
+.menu{
+    width: 20%;
+   
+}
+.menu a{
+display: block;
+}
