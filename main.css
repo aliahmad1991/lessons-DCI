@@ -1,3 +1,10 @@
 .responsive-h1{
 font-size: 10vw;
 }
+@media screen and (max-width:500px){
+    .nav{
+        visibility: hidden;
+    }
+    .a{
+        width: 100%;
+}
