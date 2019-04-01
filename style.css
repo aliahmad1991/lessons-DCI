@@ -1,5 +1,5 @@
 .header{
-    background-color: lightblue;
+    background-color: lightgreen;
     font-family: Verdana;
     text-align: center;
     color: blue;
@@ -24,17 +24,19 @@ margin-top: 5px;
     float: left;
    width: 60%;
    padding: 0px 20px;
-  
-   
-   
+
+
+
 }
 .right{
+    display:block;
     background-color: lightgreen;
     width: 15%;
     text-align: center;
     margin-top: 5px;
-    float: right;
-    
-   
-    
-}
+    float: right;}
+.footer{
+        text-align: center;
+        padding: 10px;
+        margin-top: 300px;
+    }
