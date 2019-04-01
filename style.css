@@ -8,8 +8,14 @@
 }
 .menu{
     width: 20%;
+    text-align: center;
+   
    
 }
 .menu a{
 display: block;
+padding: 8px;
+width: 100%;
+background-color: lightgreen;
+margin-top: 7px;
 }
