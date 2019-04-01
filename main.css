@@ -3,7 +3,19 @@
 font-size: 10vw;
 }
 .left{
-    
+    background-color: aqua;
+    padding: 20px;
+    width: 20%;
+}
+.middle{
+    background-color: blue;
+    padding: 20px;
+    width: 60%;
+}
+.right{
+    background-color: blueviolet;
+    padding: 20px;
+    width: 180%;
 }
 @media screen and (max-width:500px){
     .nav{
