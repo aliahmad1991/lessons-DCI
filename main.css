@@ -1,5 +1,9 @@
+
 .responsive-h1{
 font-size: 10vw;
+}
+.left{
+    
 }
 @media screen and (max-width:500px){
     .nav{
