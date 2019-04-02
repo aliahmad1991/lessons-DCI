@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: black;
+    color: cornsilk;
+    text-align: center;
+    padding: 15px;
+}
+article{
+    text-align: justify;
+    padding: 10px;
+    font-family: verdana;
+    font-size: 17px;
+}
+main{
+    height: 500px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+}
+nav{
+    background-color:gray;
+    border: 1px solid black;
+    overflow:hidden;
+    
+    
+}
+nav a{
+    padding: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+    float: left;
+}
+nav a:hover{
+    background-color: bisque;
+    color: black;
+
+}
