@@ -16,7 +16,7 @@ article{
     font-size: 17px;
 }
 main{
-    height: 500px;
+    height: auto;
 }
 footer{
     text-align: center;
@@ -48,4 +48,10 @@ nav a:hover{
     background-color: bisque;
     color: black;
 
+}
+@media only screen and (max-width:600px){
+    .menu,.main,.right{
+        width: 100%;
+
+    }
 }
