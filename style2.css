@@ -35,9 +35,9 @@ nav{
     overflow:hidden;
     text-align: center;
     
-    
-    
-    
+
+
+
 }
 nav a{
     padding: 15px;
@@ -52,8 +52,9 @@ nav a:hover{
     color: black;
 
 }
+
 @media only screen and (max-width:600px){
-    .menu,.main,.right{
+    nav,nav a,main,header,footer{
         width: 100%;
 
     }
