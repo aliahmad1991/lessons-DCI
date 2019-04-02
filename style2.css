@@ -30,6 +30,9 @@ nav{
     background-color:gray;
     border: 1px solid black;
     overflow:hidden;
+    text-align: center;
+    
+    
     
     
 }
@@ -38,7 +41,8 @@ nav a{
     color: whitesmoke;
     text-decoration: none;
     font-size: 17px;
-    float: left;
+    display: inline-block;
+    
 }
 nav a:hover{
     background-color: bisque;
