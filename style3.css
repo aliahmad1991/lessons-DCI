@@ -1,4 +1,4 @@
-k*{
+*{
     box-sizing: border-box;
 }
 header{
@@ -140,7 +140,7 @@ padding: 14px;
 
 
 @media only screen and (max-width:600px){
-    nav,nav a,#main{
+    nav,nav a,#main,a{
         width: 100%;
 
     }
