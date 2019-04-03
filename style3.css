@@ -16,6 +16,7 @@ header{
 nav{
     float: right;
     padding: 70px;
+    display: block;
 }
 nav a{
     border: 15px;
@@ -27,16 +28,21 @@ nav a:hover{
     background-color: bisque;
     color: black;
     font-size: 20px;
-    border-radius: 20px
+    border-radius: 20px;
+    color:red;
 }
 img{
     border-radius: 5px;
+    max-width: 100%;
+
     
     
+
 }
 #ax{
+    width: 100%;
     margin-top: 10px;
-    background-image: url(images/11.jpg);
+    background-image: url(images/8.jpg);
     height: 300px;
     border-radius: 10px 10px 0px 0px ;
 }
@@ -45,6 +51,8 @@ img{
     color: white;
     padding: 10px;
     border-radius: 0px 0px 10px 10px ;
+    opacity: 0,5;
+    
 }
 #b{
     float:right;
@@ -131,7 +139,7 @@ padding: 10px;
 
 
 @media only screen and (max-width:600px){
-    nav,nav a,main,header,footer{
+    nav,nav a,#title,header,footer,img,#ax,#text,b,p,article,#p,#c,#x,#c,#e,#the,body{
         width: 100%;
 
     }
