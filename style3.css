@@ -7,6 +7,9 @@ header{
     height: 100px;
     border: 1px;
     border-radius: 10px }
+#main{
+    margin: 0 auto;
+}
 
 #title{
     font-size: 50px;
@@ -137,7 +140,7 @@ padding: 14px;
 
 
 @media only screen and (max-width:600px){
-    nav,nav a,#title,header,footer,img,#ax,#text,b,p,article,#p,#c,#x,#c,#e,#the,body{
+    nav,nav a,#main{
         width: 100%;
 
     }
