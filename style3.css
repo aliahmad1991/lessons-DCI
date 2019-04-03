@@ -26,7 +26,6 @@ nav a{
 }
 nav a:hover{
     background-color: bisque;
-    color: black;
     font-size: 20px;
     border-radius: 20px;
     color:red;
