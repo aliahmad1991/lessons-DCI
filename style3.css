@@ -1,4 +1,4 @@
-*{
+k*{
     box-sizing: border-box;
 }
 header{
@@ -82,23 +82,24 @@ body{
 aside{
 
     margin-left: 0px;
-    width: 200px;
+    width: 225px;
+    height: 417px;
     background-color: darkolivegreen;
     margin-bottom: 100px;
     position: absolute ;
     right: 10px;
-    top:500px;
+    top:470px;
    border-radius: 20px;
     
 }
 #e{
-width: 180px;
+
 float: right;
-padding: 10px;
+padding: 14px;
 }
 #the{
     width: 190px;
-   float: right;
+   margin-left: 6px;
    padding: 10px;
    
 }
