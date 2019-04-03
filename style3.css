@@ -9,6 +9,7 @@ header{
     border-radius: 10px }
 #main{
     margin: 0 auto;
+    
 }
 
 #title{
@@ -59,6 +60,8 @@ img{
     margin-bottom: 10px;
     background-color: red;
     color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 p{
     text-align: justify;
