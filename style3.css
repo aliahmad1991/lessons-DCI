@@ -140,8 +140,9 @@ padding: 14px;
 
 
 @media only screen and (max-width:600px){
-    nav,a,#main,a{
+    nav,a,#main,#c,header,aside,footer,#title,p{
         width: 100%;
+        display: block;
 
     }
 }
