@@ -28,10 +28,11 @@ nav a{
     padding: 10px
 }
 nav a:hover{
-    background-color: bisque;
+    background-image: url("images/15.png");
     font-size: 20px;
     border-radius: 20px;
-    color:red;
+    
+    
 }
 img{
     border-radius: 5px;
@@ -105,7 +106,7 @@ padding: 14px;
 }
 #the{
     width: 190px;
-   margin-left: 6px;
+   margin-left: 18px;
    padding: 10px;
    
 }
