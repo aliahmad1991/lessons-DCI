@@ -3,18 +3,21 @@
     font-size: 2.9em;
     background-color: #02fcfc;
     width: 35%;
+    border-radius: 20px;
 }
 .styling1{
     font-size: 2.9em;
     color:rgb(255,00,255);
     background-color: rgb(201,202,111,0.4);
     width: 35%;
+    border-radius: 20px;
 }
 .styling2{
     font-size: 2.9em;
     background-color: rgb(255,155,99,0.2);
     color: rgb(199,133,144);
     width: 35%;
+    border-radius: 20px;
     
 }
 p:hover{
@@ -23,11 +26,13 @@ p:hover{
     border:5px solid rgb(190,130,140);
     display: block;
     font-family: Godofwar;
+    
    
 }
 img:hover{
     width: 500px;
     border: 2px solid gray;
+    border-radius: 20px;
 
 }
 body{
