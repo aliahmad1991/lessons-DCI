@@ -34,6 +34,7 @@ img{
     margin: 0 auto;
     margin-top: 10px;
     display: block;
+    padding:auto;
     
 }
 p:hover{
@@ -49,6 +50,7 @@ img:hover{
     width: 500px;
     border: 2px solid gray;
     border-radius: 20px;
+    padding: auto;
 
 }
 .main{
