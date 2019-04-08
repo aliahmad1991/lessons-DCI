@@ -1,25 +1,37 @@
 .styling{
     color: gray;
-    font-size: 4.9em;
+    font-size: 2.9em;
     background-color: #02fcfc;
+    width: 35%;
 }
 .styling1{
-    font-size: 4.9em;
+    font-size: 2.9em;
     color:rgb(255,00,255);
     background-color: rgb(201,202,111,0.4);
+    width: 35%;
 }
 .styling2{
-    font-size: 4.9em;
+    font-size: 2.9em;
     background-color: rgb(255,155,99,0.2);
-    color: rgb(199,133,144)
+    color: rgb(199,133,144);
+    width: 35%;
+    
 }
 p:hover{
     color: rgb(125,20,15,0.3);
-    font-size: 5em;
+    font-size: 3em;
     border:5px solid rgb(190,130,140);
     display: block;
-    
+    font-family: Godofwar;
+   
+}
+img:hover{
+    width: 500px;
+    border: 2px solid gray;
+
 }
 body{
-    background-color: rgb(250,123,90,0.1)
+    background-color: rgb(250,123,90,0.3);
+    padding-left:50px;
+     
 }
