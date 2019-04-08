@@ -14,7 +14,7 @@
     color: rgb(199,133,144)
 }
 p:hover{
-    color: black;
+    color: rgb(125,20,15,0.3);
     font-size: 5em;
     border:5px solid rgb(190,130,140)
 }
