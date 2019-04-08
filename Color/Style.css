@@ -16,7 +16,9 @@
 p:hover{
     color: rgb(125,20,15,0.3);
     font-size: 5em;
-    border:5px solid rgb(190,130,140)
+    border:5px solid rgb(190,130,140);
+    display: block;
+    
 }
 body{
     background-color: rgb(250,123,90,0.1)
