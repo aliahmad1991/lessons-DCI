@@ -6,7 +6,7 @@
     border-radius: 20px;
     text-align: center;
     margin: 0 auto;
-    border:1px black;
+    
 }
 .styling1{
     font-size: 2.9em;
@@ -16,7 +16,7 @@
     border-radius: 20px;
     text-align: center;
     margin: 0 auto;
-    border:1px black;
+   
 }
 .styling2{
     font-size: 2.9em;
@@ -26,8 +26,6 @@
     border-radius: 20px;
     text-align: center;
     margin: 0 auto;
-    border:1px black;
-    
 }
 img{
     margin: 0 auto;
@@ -55,6 +53,10 @@ img:hover{
     background-color: lightblue;
     border:1px solid black;
     margin: 0 auto;
+    padding-left:40px ;
+    padding-right: 40px;
+    padding-top: 40px;
+    
 }
 .main div{
     float: left;
@@ -65,13 +67,13 @@ img:hover{
     padding: 40px;
 }
 .div1{
-    background-color: blue;
+    background-color: red;
 }
 .div2{
-    background-color:lawngreen ;
+    background-color:green;
 }
 .div3{
-    background-color:red;
+    background-color:blue;
 }
 body{
     background-color: rgb(250,123,90,0.3);
