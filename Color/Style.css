@@ -86,6 +86,21 @@ img:hover{
 }
 body{
     background-color: rgb(250,123,90,0.3);
-    
-     
+        
+}
+.para1{
+    display:inline;
+    color: red;
+}
+.para2{
+    display:block;
+    color: red;
+}
+.para3{
+    display:none;
+    color: red;
+}
+.para4{
+    display:inline-block;
+    color: red;
 }
