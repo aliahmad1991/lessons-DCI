@@ -65,15 +65,23 @@ img:hover{
     height: 150px;
     box-sizing: border-box;
     padding: 40px;
+    text-align: center;
+    font-size: 70px;
 }
 .div1{
     background-color: red;
+    margin-right: 2px; 
+    
 }
 .div2{
     background-color:green;
+    
+    
 }
 .div3{
     background-color:blue;
+    margin-left: 2px;
+    
 }
 body{
     background-color: rgb(250,123,90,0.3);
