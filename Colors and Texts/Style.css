@@ -1,3 +1,5 @@
+
+
 .styling{
     color: gray;
     font-size: 2.9em;
@@ -32,6 +34,7 @@ img{
     margin: 0 auto;
     margin-top: 10px;
     display: block;
+    
 }
 p:hover{
     color: rgb(125,20,15,0.3);
@@ -49,6 +52,7 @@ img:hover{
 
 }
 .main{
+    
     height: 200px;
     width: 606px;
     background-color:rgb(120,120,61,0.5);
@@ -57,7 +61,7 @@ img:hover{
     padding-left:40px ;
     padding-right: 40px;
     padding-top: 40px;
-    
+
 }
 .main div{
     float: left;
@@ -86,6 +90,7 @@ img:hover{
 }
 body{
     background-color: rgb(250,123,90,0.3);
+    display: block;
         
 }
 .para1{
@@ -103,4 +108,21 @@ body{
 .para4{
     display:inline-block;
     color: red;
+}
+.flex{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #333;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.flex div{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    
 }
