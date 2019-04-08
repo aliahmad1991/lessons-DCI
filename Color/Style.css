@@ -1,10 +1,25 @@
 .styling{
-    color: white;
-    font-size: 10.9em;
+    color: gray;
+    font-size: 4.9em;
     background-color: #02fcfc;
 }
 .styling1{
-    font-size: 10.9em;
-    color:rgb(124,255,123);
-    background-color: rgb(201,202,111);
+    font-size: 4.9em;
+    color:rgb(255,00,255);
+    background-color: rgb(201,202,111,0.4);
+}
+.styling2{
+    font-size: 4.9em;
+    background-color: rgb(255,155,99,0.2);
+    color: rgb(199,133,144)
+}
+p:hover{
+    color: black;
+    font-size: 5em;
+    border:5px solid rgb(190,130,140)
+}
+
+
+body{
+    background-color: rgb(250,123,90,0.1)
 }
