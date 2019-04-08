@@ -50,7 +50,7 @@ img:hover{
 .main{
     height: 200px;
     width: 606px;
-    background-color: lightblue;
+    background-color:rgb(120,120,61,0.5);
     border:1px solid black;
     margin: 0 auto;
     padding-left:40px ;
