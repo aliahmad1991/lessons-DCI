@@ -4,6 +4,9 @@
     background-color: #02fcfc;
     width: 35%;
     border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border:1px black;
 }
 .styling1{
     font-size: 2.9em;
@@ -11,6 +14,9 @@
     background-color: rgb(201,202,111,0.4);
     width: 35%;
     border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border:1px black;
 }
 .styling2{
     font-size: 2.9em;
@@ -18,7 +24,15 @@
     color: rgb(199,133,144);
     width: 35%;
     border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    border:1px black;
     
+}
+img{
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
 }
 p:hover{
     color: rgb(125,20,15,0.3);
@@ -35,8 +49,32 @@ img:hover{
     border-radius: 20px;
 
 }
+.main{
+    height: 200px;
+    width: 606px;
+    background-color: lightblue;
+    border:1px solid black;
+    margin: 0 auto;
+}
+.main div{
+    float: left;
+    border:1px solid rgb(12,36,201); 
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.div1{
+    background-color: blue;
+}
+.div2{
+    background-color:lawngreen ;
+}
+.div3{
+    background-color:red;
+}
 body{
     background-color: rgb(250,123,90,0.3);
-    padding-left:50px;
+    
      
 }
