@@ -23,6 +23,7 @@ body{
     color: aliceblue;
     text-decoration: none;
     padding: 14px 14px;
+    text-align: center;
 }
 .nav a:hover{
     background-color: burlywood;
@@ -53,4 +54,9 @@ body{
     text-align: center;
     background-color: black;
     color: white;
+}
+@media screen and (max-width:700px){
+    .row,.nav{
+        flex-direction: column;
+    }
 }
