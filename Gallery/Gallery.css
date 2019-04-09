@@ -27,29 +27,10 @@ body{
 }
 .nav a:hover{
     background-color: burlywood;
+ 
     
-}
-.noimg{
-    background-color: gray;
-    width: 100%;
-    padding: 20px;
-    
-    }
-.side{
-    background-color: rgb(120, 120,100,0.5);
-    flex: 30%;
-    
-   
-}
-.main{
-    flex: 70%;
-    padding: 20px;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    
-    
+
+
 }
 .footer{
     padding: 20px;
@@ -57,14 +38,8 @@ body{
     background-color: black;
     color: white;
 }
-p{
-    text-align:justify;
-    margin-left: 5px;
-    
-}
-h2,h3{
-    margin-left: 5px;
-
+.rowimg{
+    display: inline-flex;
 }
 @media screen and (max-width:700px){
     .row,.nav{
