@@ -38,13 +38,8 @@ body{
 .rowimg{
     display: inline-flex;
 }
-@media screen and (max-width:600px){
-    .row,.nav{
-        flex-direction: column;
-    }
-}
 @media screen and (max-width:800px){
-    .rowimg img{
+    .rowimg div{
         flex: 50%;
         max-width: 50%;
     }
