@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(100,220,200,0.4)
+}
 img{
     float: left;
 }
