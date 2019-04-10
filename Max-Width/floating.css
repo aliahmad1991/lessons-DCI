@@ -24,3 +24,11 @@ img{
 #two{
     margin-left: 2%;
 }
+@media screen and (max-width:800px){
+        .article,img{
+            width: 100%;
+            max-width: 100%;
+        }
+
+
+}
