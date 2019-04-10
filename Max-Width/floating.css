@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+}
+img{
+    float: left;
+}
+.article{
+    float: left;
+    width: 49%;
+    border: 2px solid rgb(199,22,66);
+    text-align: justify;
+    padding: 15px;
+
+}
+#float{
+    margin-right: 18px;
+    max-width: 180px;
+    width:50%;
+}
+#two{
+    margin-left: 2%;
+}
