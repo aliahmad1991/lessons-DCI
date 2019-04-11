@@ -4,6 +4,8 @@
 }
 .main{
     margin: 0 auto;
+    width: auto;
+    height: auto;
 }
 .one{
     background-color: black;
