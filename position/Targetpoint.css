@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 .main{
-    margin: 0 auto;
+    margin-left: 100px;
     width: auto;
     height: auto;
 }
@@ -94,7 +94,7 @@
     margin: 0 auto;
     position: absolute;
     top:60px;
-    left:55px;
+    left:157px;
 }
 .ten{
     background-color: black;
