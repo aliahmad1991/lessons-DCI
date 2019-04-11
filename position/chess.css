@@ -1,0 +1,21 @@
+.main{
+    border: 1px solid black;
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+}
+.white{
+    background-color: rgb(246, 245, 245);
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+
+}
+.black{
+    background-color: rgb(0, 0, 0);
+    
+    width: 100px;
+    height: 100px;
+    float: left;
+}
