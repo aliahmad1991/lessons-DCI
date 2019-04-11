@@ -1,5 +1,19 @@
 .static{
     position: static;
     border: 3px solid green;
-    
+}
+.relative{
+    position: relative;
+    left: 20px;
+    width: 500px;
+    border: 3px solid blue;
+}
+.absolute{
+    position: absolute;
+    border: 3px solid red;
+}
+.fixed{
+    position: fixed;
+    width: 600px;
+    border: 3px solid black;
 }
