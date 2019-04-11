@@ -7,13 +7,18 @@
     left: 20px;
     width: 500px;
     border: 3px solid blue;
+    height: 2000px;
 }
 .absolute{
     position: absolute;
     border: 3px solid red;
+    left: 40px;
+    top: 30px;
 }
 .fixed{
     position: fixed;
     width: 600px;
     border: 3px solid black;
+    bottom: 300px;
+    right: 40px;
 }
