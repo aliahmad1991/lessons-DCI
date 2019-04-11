@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+.main{
+    margin: 0 auto;
+}
 .one{
     background-color: black;
     border:1px solid green;
@@ -100,4 +103,18 @@
     position: absolute;
     top:50px;
     left:50px;
+}
+.plus{
+    margin: 0 auto;
+    position: absolute;
+    top:43px;
+    left:43px;
+}
+@media screen and (max-width:800px){
+    .plus,main div{
+        width: 100px;
+        max-width: 100px;
+    }
+
+
 }
