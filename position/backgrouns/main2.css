@@ -44,9 +44,12 @@ body{
     text-align: center;
     color: white;
     height: 300px;
-    border: 1px solid black;
     vertical-align: middle;
     background-image: linear-gradient(0deg ,red,yellow 40% ,pink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 3em;
    
     
 
