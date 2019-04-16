@@ -1,7 +1,8 @@
 body{
     background: rgb(200,200,200);
 }
-.main{
+.main{  
+border: 24px ridge #000000;
     text-align: center;
     color: white;
     height: 300px;
