@@ -1,0 +1,14 @@
+body{
+    height: 1000px;
+    background-image: url(windows-10-logo-large.jpg);
+    /* background-size: no-repeat; */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.main{
+    background-color: rgb(255,255,255,0.4);
+    height: 200%;
+    text-align: center ;
+}
+
