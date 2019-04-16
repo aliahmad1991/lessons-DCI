@@ -1,0 +1,33 @@
+body{
+    background: rgb(200,200,200);
+}
+.main{
+    text-align: center;
+    color: white;
+    height: 300px;
+    border: 1px solid black;
+    vertical-align: middle;
+    background-image: linear-gradient(to top left,red,yellow,green,pink,gray,black,blue,brown,orange);
+
+}
+.main2{
+
+    text-align: center;
+    color: white;
+    height: 300px;
+    border: 1px solid black;
+    vertical-align: middle;
+    background-image: linear-gradient(to  right,red,yellow,green,pink,gray,black,blue,brown,orange);
+
+}
+.main3{
+
+    text-align: center;
+    color: white;
+    height: 300px;
+    border: 1px solid black;
+    vertical-align: middle;
+    background-image: linear-gradient(to  top,red,yellow,green,pink,gray,black,blue,brown,orange);
+
+
+}
