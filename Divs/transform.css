@@ -62,9 +62,21 @@
     background:linear-gradient(to bottom, blue,red,green,pink,brown,white,black);
     color:beige;
     margin-top: 700px;
+    
 }
 .mydiv:hover{
-    transform: translate(20px,30px)
+    transform: 
+    matrix(2,0,0,4,200,200)
+    rotate(45deg);
+    /* translate(20px,30px);
+    background:linear-gradient(to top, blue,red,green,pink,brown,white,black);
+    transform: rotateY(90deg) translate(200px,200px) scale(2,4) ; */
+    transition: 1s;
+
+}
+.a:hover{
+    transform: skew(45deg,-45deg) ;
+    transition: 5s;
 }
 @media screen and (max-width:800px){
     .a,.aa{
