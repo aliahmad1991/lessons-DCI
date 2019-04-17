@@ -34,3 +34,7 @@ body{
     height: 200px;
 
 }
+@media screen and (max-width:800px){
+   .first,.second,#img{width: 50%;
+    max-width: 50%;}
+}
