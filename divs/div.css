@@ -34,6 +34,9 @@ body{
     height: 200px;
 
 }
+p{
+    text-decoration: blueviolet;
+}
 @media screen and (max-width:800px){
    .first,.second,#img{width: 50%;
     max-width: 50%;}
