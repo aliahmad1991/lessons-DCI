@@ -56,6 +56,16 @@
     background-color: lightcoral;
     border: 1px dotted black;
 }
+.mydiv{
+    width: 500px;
+    height: 300px;
+    background:linear-gradient(to bottom, blue,red,green,pink,brown,white,black);
+    color:beige;
+    margin-top: 700px;
+}
+.mydiv:hover{
+    transform: translate(20px,30px)
+}
 @media screen and (max-width:800px){
     .a,.aa{
         width: 100px;
