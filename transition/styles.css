@@ -2,11 +2,21 @@
     width: 500px;
     height: 100px;
     background-color: yellow;
+    border-radius: 0px 900px 50px 0px;
+    
 
+}
+.window{
+    background-color: gray;
+    width: 120px;
+    height: 70px;
+    margin: 0 auto;
+    
 }
 .tra:hover{
     background-color: aqua;
     width: 1000px;
     height: 200px;
-    transition: 5s;
+    transition: 15s;
+    border-radius: 0px 900px 50px 0px;
 }
