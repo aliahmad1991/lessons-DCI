@@ -2,7 +2,7 @@
     width: 500px;
     height: 100px;
     background-color: yellow;
-    border-radius: 0px 900px 50px 0px;
+    border-radius: 0px 90px 90px 0px;
     
 
 }
@@ -18,5 +18,7 @@
     width: 1000px;
     height: 200px;
     transition: 15s;
-    border-radius: 0px 900px 50px 0px;
+    border-radius: 0px 90px 90px 0px;
+    transform: rotate(50deg);
+    opacity: 0;
 }
