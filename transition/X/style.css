@@ -18,16 +18,17 @@
     z-index: -1;
 }
 #img1{
-    position: relative;
+    position: absolute;
+    right: 70%;
+    top: 50%;
     z-index: -1;
-    top: 37.5%;
     transform: rotateY(50deg)
     
     
 }
 #img2{
     position: absolute;
-    right: 62%;
+    right: 60%;
     top: 50%;
     z-index: -1;
     transform: rotateY(50deg)
@@ -35,7 +36,7 @@
 }
 #img3{
     position: absolute;
-    right: 55%;
+    right: 50%;
     top: 50%;
     z-index: -1;
     transform: rotateY(50deg)
@@ -44,7 +45,7 @@
 #img4{
     position: absolute;
     top:50%;
-    right: 45%;
+    right: 40%;
     z-index: -1;
     transform: rotateY(50deg)
    
@@ -53,28 +54,28 @@
 #img5{
     position: absolute;
     top:50%;
-    right: 35%;
+    right: 30%;
     z-index: -1;
     transform: rotateY(50deg)
 }
 #img6{
     position: absolute;
     top:50%;
-    right: 25%;
+    right: 20%;
     z-index: -1;
     transform: rotateY(50deg)
 }
 #img7{
     position: absolute;
     top:50%;
-    right: 15%;
+    right: 10%;
     z-index: -1;
     transform: rotateY(50deg)
 }
 #img8{
     position: absolute;
     top:50%;
-    right: 10%;
+    right: 0%;
     z-index: -1;
     transform: rotateY(50deg)
 }
@@ -83,7 +84,7 @@
 #img1:hover{
     z-index: 0;
     position: absolute;
-    bottom: 10%;
+    top:35%;
     transform: rotateY(0deg)
 
 }
