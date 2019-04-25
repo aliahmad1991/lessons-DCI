@@ -84,54 +84,59 @@
 #img1:hover{
     z-index: 0;
     position: absolute;
-    top:35%;
+    top:15%;
+    right: 50%;
     transform: rotateY(0deg)
 
 }
 #img2:hover{
     z-index: 0;
     position: absolute;
-    top: 35%;
+    top: 15%;
+    right: 50%;
     transform: rotateY(0deg)
 }
 #img3:hover{
     z-index: 0;
     position: absolute;
-    top: 35%;
+    top: 15%;
     transform: rotateY(0deg)
 }
 #img4:hover{
     z-index: 0;
     position: absolute;
-    top: 35%;
+    top: 15%;
     transform: rotateY(0deg)
 }
 #img5:hover{
     z-index: 0;
     position: absolute;
-    top: 35%;
+    top: 15%;
     transform: rotateY(0deg)
 }
 #img6:hover{
     z-index: 0;
     position: absolute;
-    top: 35%;
+    top: 15%;
     transform: rotateY(0deg)
 }
 #img7:hover{
     z-index: 0;
     position: absolute;
-    top: 35%;
+    top: 15%;
     transform: rotateY(0deg)
 }
 #img8:hover{
     z-index: 0;
     position: absolute;
-    top: 35%;
+    top: 15%;
     transform: rotateY(0deg)
 }
 img:hover{
     transition: 3s;
-    transform: rotateY(0deg)
+    transform: rotateY(0deg);
+    width: 500px;
+    height: 350px;
+    
     
 }
