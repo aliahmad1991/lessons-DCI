@@ -1,0 +1,45 @@
+body{
+    background-color: beige;
+}
+h1{
+    color: red;
+}
+.text::before{
+    content:"" ;
+    width: 100%;
+    height: 30px;
+    color: aqua;
+    font-weight: 800;
+    display: block;
+
+    border-radius: 15px;
+    background:linear-gradient(to right, green,blue,red,brown);
+
+}
+.text::after{
+    content: "";
+    color: red;
+    font-weight:800;
+    display: block;
+    background:linear-gradient(to left, green,blue,red,brown);
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+}
+h2::before{
+    content: open-quote;
+    font-size: 1.5em;
+    color: rgb(21, 228, 228);
+}
+h2::after{
+    content: close-quote;
+    color: rgb(27, 201, 201); 
+    font-size:  1.5em;
+}
+.article{
+    padding: 20px;
+    font-size: 1.3em;
+    display: block;
+    
+    
+}
