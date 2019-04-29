@@ -3,6 +3,7 @@
 }
 body{
   background: lightblue;
+  font-family: arial;
 
 }
 .container{
@@ -15,9 +16,28 @@ body{
 
 
 }
+.container input:focus{
+background-image: none;
+width: 70%;
+height: 50px;
+
+  
+}
+.container input{
+  background-image: url(../../images/15.png);
+  background-size: 15px;
+  transition: all ease-in-out 400ms;
+  
+}
+.p{
+  text-align: left;
+  margin-left: 170px;
+ 
+  margin-bottom: 0%;
+}
 .container label{
   display:inline-block;
-  border: 0px solid red;
+  border: 0px solid lightblue;
   width: 60%;
   text-align:left; 
   margin-top: 5px;
@@ -28,14 +48,40 @@ p{
 }
 
 .container input , textarea{
-  width: 60%;
-  
+  width: 60%; 
 }
+.container input[type="radio"]{
+  width: 50px;
+  margin-left: 0%;
+
+
+}
+.container input[type="checkbox"]{
+  width: 10%;
+ float: left;
+  
+
+}
+.container textarea{
+  padding: 20px 20px;
+  resize: none;
+  font-size: 1.5em;
+  color: blue;
+  margin-bottom: 5px;
+}
+.a{
+  margin-left: 175px;
+  float: left;
+  width: 400px;
+  text-align: justify;
+}
+
 select{
   text-align: center;
   position:relative;
   margin-left: 100px;
   float: right;
+  width: 100%;
 }
 @media only screen and (max-width:600px){
   .container, input , textarea,label,p{

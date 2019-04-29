@@ -54,19 +54,26 @@
             </select></label>
             <hr style="color:white;width: 60%;">
            
-            <label for="">Gender :  
-           <select> 
-               <option value="1" name="Gender" type="radio">Male</option>
-               <option value="2" name="Gender" type="radio">Female</option>
-               <option value="3" name="Gender" type="radio">Other</option>
-           </select></label>
+            
+                <form action="/action_page.php">
+                    <p class="p">Gender:</p>
+                 <span>Male</span><input type="radio" name="gender" id="" value="male"> 
+                  <span>Female</span><input type="radio" name="gender" id="" value="female"> 
+                  <span> Other</span><input type="radio" name="gender" id="" value="other"> 
+                </form>
+           <hr style="color:white;width: 60%;">
+
+           <p class="p"><b>Message Thema :</b></p>
+          <span class="a">Site  <input type="checkbox" name="Message1" value="site"  checked></span><br>
+          <span class="a">Contents<input type="checkbox" name="Message2" value="contents"></span><br>
+          <span class="a">Somthing else <input type="checkbox" name="Message3" value="Something else"></span> <br>
            <hr style="color:white;width: 60%;">
             <label for="">Message:
             </label>
             <textarea name="message" id="" col="30" rows="10">
             
             </textarea>
-            <input type="submit" value="send">
+            <input type="submit" value="Submit">
 
         </form>
     </div>
