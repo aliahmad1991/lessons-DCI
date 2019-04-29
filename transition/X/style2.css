@@ -1,5 +1,48 @@
-.container{
-   margin: 0 auto;
-  background: yellow;
+*{
+  box-sizing: border-box;
+}
+body{
+  background: lightblue;
 
 }
+.container{
+  margin:0 auto;
+  text-align: center;
+  width: 70%;
+  background-image: linear-gradient(to top,lightblue,green,lightblue);
+  padding: 25px;
+  
+
+
+}
+.container label{
+  display:inline-block;
+  border: 1px solid red;
+  width: 60%;
+  text-align:left; 
+
+}
+p{
+  border: 0px solid green;
+}
+
+.container input , textarea{
+  width: 60%;
+ 
+  
+}
+@media only screen and (max-width:600px){
+  .container, input , textarea,label,p{
+    width: 100%;
+  }
+  .container p lable{
+    text-align: left;
+    font-size: 0.8em;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  .container p{
+    font-size: 1em;
+  }
+} 
