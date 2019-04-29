@@ -17,7 +17,7 @@ body{
 }
 .container label{
   display:inline-block;
-  border: 1px solid red;
+  border: 0px solid red;
   width: 60%;
   text-align:left; 
 
