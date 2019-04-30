@@ -9,6 +9,7 @@ body{
 }
 .main h1{
     color:var(--txtcolor);
+    font-size: 3rem;
     
 }
 .main{
@@ -17,10 +18,25 @@ body{
     background-color:brown;
     height: var(--div-height);
     border-radius:var(--border-radius);
+    border: 12px solid black;
 
 }
 .mydiv{
     /* he height is here 500px */
     height: var(--div-height);
     background: blue;
+}
+#alert{
+    --txtcolor:lightblue;
+    border: 2px dotted black;
+    font-size: 1.8rem;
+}
+#ok{
+    --txtcolor:red;
+    border:1px solid black;
+    margin-top:50px;
+    font-size: 1.8rem;
+}
+*{
+    color:var(--txtcolor);
 }
