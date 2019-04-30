@@ -1,0 +1,26 @@
+:root{
+    --txtcolor:rgb(252,159,188,0.8);
+    --bgcolor:linear-gradient(to right,purple,lightblue,yellow,green);
+    --div-height:500px;
+    --border-radius:50px 0px 50px 0px;
+}
+body{
+    background: var(--bgcolor)
+}
+.main h1{
+    color:var(--txtcolor);
+    
+}
+.main{
+    --div-height:100px;
+    /* the height here is 100px */
+    background-color:brown;
+    height: var(--div-height);
+    border-radius:var(--border-radius);
+
+}
+.mydiv{
+    /* he height is here 500px */
+    height: var(--div-height);
+    background: blue;
+}

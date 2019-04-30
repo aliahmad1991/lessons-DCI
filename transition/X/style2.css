@@ -20,6 +20,7 @@ body{
 background-image: none;
 width: 70%;
 height: 50px;
+font-size: 1.5em;
 
   
 }
@@ -84,7 +85,7 @@ select{
   width: 100%;
 }
 @media only screen and (max-width:600px){
-  .container, input , textarea,label,p{
+  .container, input , textarea,label,p,a{
     width: 100%;
   }
   .container p lable{
@@ -93,8 +94,15 @@ select{
     width: 100%;
     text-transform: uppercase;
     font-weight: 200;
+
   }
   .container p{
     font-size: 1em;
   }
+  .container a,input[type="checkbox"]{
+    margin-left: 0%;}
+    .a{
+      width: 50%;
+    }
+    
 } 
