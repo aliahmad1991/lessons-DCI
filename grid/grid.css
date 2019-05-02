@@ -48,13 +48,22 @@
         "el_right"
         "el_footer"
     }
-    ul{
-        list-style: none;
-        text-align: left;
-    }
-    .menu li{
-        display: block;
-        float: left;
-        padding: 10px;
-    }
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+.menu li{
+    display: block;
+    float: left;
+    padding: 15px;
+    border: 1px solid black;
+    background: lightgreen;
+    border-radius: 15px;
+    color: black;
+}
+.menu li:hover{
+    padding: 20px;
+    transform: rotateX(45deg) rotateY(-5deg);
 }
