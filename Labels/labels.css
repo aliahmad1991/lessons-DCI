@@ -1,0 +1,53 @@
+body{
+    background-image: url(color.jpg)
+}
+.main{
+     margin: 0 auto;
+    margin-top: 200px;
+    background-color: rgba(0,0,0,0.6);
+    max-width: 365px;
+    height: 300px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    border-radius:20px;
+    padding: 40px;
+    text-align: center;
+    
+    
+
+}
+.main label{
+    float: left;
+    border: 1px;
+    margin-top: 7px;
+}
+.row {
+    margin-left: 50px;
+   margin: 0 auto; 
+   padding: 10px;
+}
+.row input{
+    float: right;
+    background-color: rgba(0,0,0,0.1);
+    border:none;
+   color: aliceblue;
+   border-bottom: 1px dotted;
+}
+.row input[type="submit"]{
+    margin-right: 150px;
+    background-color: rgba(255,255,255,.8);
+    color: #000;
+    border-radius:15px;
+}
+.row input[type="submit"]:hover{
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 10px;
+}
+@media only screen and(max-width:800px){
+    .main,.row label,.row input,p{
+        width: 100%;
+        height: auto;
+    }
+} 

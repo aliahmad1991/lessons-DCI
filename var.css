@@ -54,10 +54,14 @@ body{
     color:white;
 }
 .btn:hover{
-    background-color: var(--color)
+    background-color: var(--color);
+    filter: blur(2px);
+    filter: drop-shadow(50px);
 }
 .red{
     background: red;
+    filter:opacity(40%);
+    
 }
 .blue{
     background: blue;
