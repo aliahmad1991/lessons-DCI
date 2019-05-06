@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    font-size: 3em;
+    font-style: italic;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.godofwar{
+    font-family: GODOFWAR;
+}
+.second{
+    font-family: fantasy;
+}
+.nas{
+    font-family: IranNastaliq;
+   
+}
+.special{
+    font-family: special Elite;
+}
+.zcool{
+    font-family: zcool kuaile;
+}
+.clicker{
+    font-family: "clicker";
+}
+@font-face{
+    src: url(fonts/ClickerScript-Regular.ttf);
+    font-family: "clicker";
+}
+.molle{
+    font-family: molle;
+}
+.petit{
+    font-family: Petit Formal Script;
+}
