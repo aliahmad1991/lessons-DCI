@@ -84,7 +84,7 @@ a:hover{
     width: 240px;
     height: 200px;
     padding: 100px;
-    border-right:1px solid black;
+    border-right: 1px solid black;
     float: left;
 }
 li{
@@ -101,7 +101,7 @@ li{
 }
 .f3{
     float: left;
-    width: 284px;
+    width: 250px;
    text-align: left;
     
 }
@@ -113,4 +113,8 @@ li{
     width: 300px;
    text-align: left;
    
+}
+.main-footer{
+    margin-top: 50px;
+    
 }
