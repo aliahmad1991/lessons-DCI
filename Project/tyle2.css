@@ -1,0 +1,23 @@
+html, body {
+  text-align: center;
+}
+
+nav ul {
+  text-decoration: none;
+  margin-left: 500px;
+}
+nav ul li {
+  margin: 10px;
+  float: left;
+  list-style: none;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+main .card {
+  width: 33.3%;
+  float: left;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=tyle2.css.map */

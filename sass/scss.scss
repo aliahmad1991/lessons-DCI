@@ -1,0 +1,89 @@
+$font-family:Arial, Helvetica, sans-serif;
+$font-family2:'Times New Roman', Times, serif;
+$margin:0;
+$margin2: .5rem;
+$border:0;
+$padding:0;
+$padding-top:1rem;
+$padding-top2:2rem;
+$box-sizing:border-box;
+$height:10rem;
+$text-align:center;
+$color-blue:blue;
+$color-purple:purple;
+$color-green:green;
+$font-size3rem:3rem;
+$background-color:rgba(255, 255, 0, 0.39);
+$font-size4:2rem;
+$font-size2: 10rem;
+$font-size3:8rem;
+$font-size5rem:5rem;
+$font-family3: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+$font-family4: Georgia, 'Times New Roman', Times, serif;
+$font-family5: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$margin-bottom: 2rem;
+html, body {
+    margin: $margin;
+    border: $border;
+    padding: $padding;
+    box-sizing: $box-sizing;
+}
+
+header {
+    height: $height; 
+    background-color: $background-color;
+    text-align: $text-align;
+    padding-top: $padding-top2;
+}
+h1 {
+        font-family:$font-family;
+    }
+main {
+    margin: $margin2; 
+}
+
+.huge{
+    font-family: $font-family2;
+    font-size: $font-size2;
+    color: $color-blue;
+}
+
+.big {
+    font-family: $font-family2;
+    font-size: $font-size3;
+    color: $color-blue;
+}
+
+.medium {
+    font-family: $font-family3;
+    font-size:$font-size3rem;
+    color: $color-purple;
+}
+
+.middle {
+    font-family: $font-family4;
+    font-size: $font-size3rem;
+    color: $color-purple;
+}
+
+
+.small {
+    font-family: $font-family5;
+    font-size: $font-size4;
+    color: $color-green;
+}
+
+.tiny {
+    font-family: $font-family5;
+    font-size: $font-size5rem;
+    color: $color-green;
+    margin-bottom:$margin-bottom;
+}
+
+footer {
+    height: $height;
+    background-color: $background-color;
+    text-align: $text-align;
+    font-family: $font-family;
+    padding-top:$padding-top;
+}
