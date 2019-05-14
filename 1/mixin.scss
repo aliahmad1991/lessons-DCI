@@ -1,0 +1,44 @@
+
+
+
+
+@mixin styler {
+    text-align:center;
+    font-size: 1.5em;
+    color: red;
+    
+}
+
+.title{
+    @include styler;
+    text-transform:uppercase;
+}
+.text{
+   @include styler;
+    color: burlywood;
+}
+
+@mixin secondpart($mycolor,$fsize,$align,$b-radius){
+    text-transform: uppercase;
+    color:$mycolor;
+    font-size: $fsize;
+    text-align: $align;
+    border-radius:$b-radius;
+    }
+    @mixin bgcolor($direction,$color1,$color2,$color3,$color4) {
+        background: linear-gradient($direction,$color1,$color2,$color3,$color4);
+        
+    }
+
+
+
+.htext{
+    @include secondpart(green,5em,center,50%);
+    @include bgcolor(to top,green,gold,white,gray);
+}
+
+.content{
+    @include secondpart(black,1.7em,left,70px);
+}
+
+

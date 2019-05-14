@@ -1,0 +1,32 @@
+.title {
+  text-align: center;
+  font-size: 1.5em;
+  color: red;
+  text-transform: uppercase;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.5em;
+  color: red;
+  color: burlywood;
+}
+
+.htext {
+  text-transform: uppercase;
+  color: green;
+  font-size: 5em;
+  text-align: center;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left bottom, left top, from(green), color-stop(gold), color-stop(white), to(gray));
+  background: linear-gradient(to top, green, gold, white, gray);
+}
+
+.content {
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.7em;
+  text-align: left;
+  border-radius: 70px;
+}
+/*# sourceMappingURL=mixin.css.map */
