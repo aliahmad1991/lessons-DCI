@@ -1,7 +1,4 @@
 
-
-
-
 @mixin styler {
     text-align:center;
     font-size: 1.5em;
@@ -25,10 +22,11 @@
     text-align: $align;
     border-radius:$b-radius;
     }
-    @mixin bgcolor($direction,$color1,$color2,$color3,$color4) {
+@mixin bgcolor($direction,$color1,$color2,$color3,$color4) {
         background: linear-gradient($direction,$color1,$color2,$color3,$color4);
         
     }
+
 
 
 .htext{
@@ -38,6 +36,18 @@
 
 .content{
     @include secondpart(black,1.7em,left,70px);
+    
 }
 
+.selector{
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    background: linear-gradient(to left, green,lightblue,purple,blue,white,gray);
+
+
+   }
+   .selector:hover{
+       background: linear-gradient(to left bottom, green,lightblue,purple,white,gray);
+   }
 

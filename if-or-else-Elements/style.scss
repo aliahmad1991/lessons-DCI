@@ -1,0 +1,103 @@
+@mixin text-styler($fsize) {
+    font-size: $fsize;
+    @if $fsize>2em{
+        color: red;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+    @else if $fsize==2em {
+        color: darkblue;
+
+    }
+    @else{
+        color: green;
+    }
+   
+    
+}
+.main{
+    @include text-styler(1.5em);
+}
+
+
+@mixin ball1{
+   
+    border-radius: 100%;
+    animation: ball1;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    position: relative;
+    animation-duration: 4s;
+    transition: 5s;
+}
+
+@mixin ball2{
+   
+    border-radius: 100%;
+    animation: ball2;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    position: relative;
+    animation-duration: 4s;
+    transition: 5s;
+}
+@mixin ball3{
+   
+    border-radius: 100%;
+    animation: ball3;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    position: relative;
+    animation-duration: 4s;
+    transition: 5s;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    margin-top: 300px;
+    
+}
+
+@keyframes ball1{
+    0%{left: 0px; top:0px;}
+    25%  {left:950px; top:0px;}
+
+}
+
+@keyframes ball2{
+    0%{left: 0px; top:0px;}
+    25%  { left:950px; top:0px;}
+}
+
+@keyframes ball3{
+    0%{left: 0px; top:0px;}
+    25%  { left:950px; top:0px;}
+}
+.ball1{
+    @include ball1;
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+    background:red;
+    float: left;
+    
+}
+.ball2{
+    @include ball2;
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+    background: yellow;
+    float: left;
+    
+}
+.ball3{
+    @include ball3;
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+    background: green;
+    float: left;
+    
+}

@@ -29,4 +29,17 @@
   text-align: left;
   border-radius: 70px;
 }
+
+.selector {
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  background: -webkit-gradient(linear, right top, left top, from(green), color-stop(lightblue), color-stop(purple), color-stop(blue), color-stop(white), to(gray));
+  background: linear-gradient(to left, green, lightblue, purple, blue, white, gray);
+}
+
+.selector:hover {
+  background: -webkit-gradient(linear, right top, left bottom, from(green), color-stop(lightblue), color-stop(purple), color-stop(white), to(gray));
+  background: linear-gradient(to left bottom, green, lightblue, purple, white, gray);
+}
 /*# sourceMappingURL=mixin.css.map */
