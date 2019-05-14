@@ -1,5 +1,20 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text, .light-text {
+  border: 1px solid yellow;
+  background: -webkit-gradient(linear, right top, left top, from(red), color-stop(green), to(blue));
+  background: linear-gradient(to left, red, green, blue);
+  color: #ffff;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+}
+
 header {
-  height: 100px;
+  height: auto;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 20px;
@@ -15,7 +30,7 @@ header h2 {
 }
 
 .nav {
-  height: 70px;
+  height: auto;
 }
 
 .nav .nav-links {
@@ -36,8 +51,19 @@ header h2 {
 .nav .nav-links li a {
   text-decoration: none;
   color: #ffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Playball";
   font-size: 1.5em;
+}
+
+.nav .nav-links li a:hover {
+  background: #ca90cd;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.nav .nav-links li a:active {
+  background-color: aqua;
 }
 
 .text-section h3 {
@@ -45,10 +71,11 @@ header h2 {
 }
 
 .text-section p {
-  text-align: justify;
-  font-size: 1em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000000;
+  color: darkblue;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .section-images {
@@ -74,7 +101,7 @@ header h2 {
 }
 
 footer {
-  height: 150px;
+  height: auto;
   background-color: rgba(0, 0, 255, 0.5);
 }
 
@@ -96,9 +123,79 @@ footer .footer-links li {
 }
 
 footer .footer-links a {
+  font-family: "Playball";
   padding: 10px;
   text-decoration: none;
   font-size: 1.5em;
   color: #ffffff;
+}
+
+footer .footer-links a:hover {
+  background: #ca90cd;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+footer .footer-links a:active {
+  background-color: aqua;
+}
+
+.best {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 55px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.best .v:hover {
+  padding: 2px;
+  font-size: 65px;
+}
+
+.best a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-links li {
+    text-align: center;
+  }
+  .section-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=app.css.map */

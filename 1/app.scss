@@ -1,5 +1,66 @@
+@mixin text-format($text-color,$align,$font-family,$font-size,$font-width){
+    color:$text-color;
+    text-align: $align;
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-width;
+
+}
+@mixin link-format{
+    
+    &:hover{
+        background: rgba(202,144,205, 1.0);
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    &:active{
+        background-color: aqua;
+    }
+    
+}
+@mixin animation {
+    animation: drive 4s steps(4,end) infinite;
+    
+}
+*{
+    box-sizing: border-box;
+}
+%light-text{
+    border:1px solid yellow;
+    background: linear-gradient(to left,red,green,blue);
+    color: #ffff;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align: center;
+
+}
+@mixin pics{
+         animation-name:"animation";
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        @-webkit-keyframes animation{
+            from{width: 300px ; height:300px}
+            to{width:400px;height:400px }
+        
+        }
+        
+
+}
+@mixin mymove{
+    
+}
+.text{
+    @extend %light-text;
+   
+
+    
+}
+.light-text{
+    @extend %light-text
+}
 header{
-    height: 100px;
+    height: auto;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
@@ -15,7 +76,7 @@ h2{
  }  
 }
 .nav{
-    height: 70px;
+    height: auto;
     .nav-links{
         display: flex;
         justify-content: center;
@@ -27,8 +88,9 @@ h2{
             a{
                 text-decoration: none;
                 color: #ffff;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: "Playball";
                 font-size: 1.5em;
+                @include link-format;
             }
 
         }
@@ -40,10 +102,14 @@ h2{
     text-align: center;
     }
     p{
-        text-align: justify;
-        font-size: 1em;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #000000;
+        @include text-format(
+            darkblue,
+            center,
+            "Dancing Script",
+            1.5em,
+            bold,
+            );
+        
     }
 }
 .section-images{
@@ -51,14 +117,23 @@ h2{
     flex-flow: row-reverse;
     justify-content: center;
     align-items: center;
+    
+   
     img{
         height: 300px;
         width: 300px;
         margin: 0px 10px 50px 10px;
+       
+        
+        
+
     }
 }
+
+
+
 footer{
-    height: 150px;
+    height: auto;
     background-color: rgba(0, 0, 255,0.5);
     .footer-links{
         list-style: none;
@@ -71,10 +146,62 @@ footer{
             padding: 10px;
         }
         a{
+            font-family: "Playball";
             padding: 10px;
             text-decoration: none;
             font-size: 1.5em;
             color: #ffffff;
+            @include link-format;
         }
     }
+}
+.best{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 55px;
+    justify-content: center;
+   
+    
+   
+    
+    .v:hover{
+        padding: 2px;
+        font-size: 65px;
+       
+    }
+    a{
+        text-decoration: none;
+        
+    }
+
+   
+}
+
+
+    
+
+@media screen and (max-width:600px){
+            .nav-links{
+                display: flex;
+                flex-direction: column ;
+
+                li{
+                
+                text-align: center;
+            }
+        }
+        .section-images{
+            display: flex;
+            flex-direction: column;
+
+
+        }
+        .footer-links{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+
 }
