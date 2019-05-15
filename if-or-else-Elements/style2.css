@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=style2.css.map */
+body {
+  text-align: center;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: gold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: gold;
+}
+
+h1 {
+  padding: 100px 50px;
+  color: green;
+  font-size: 50px;
+}
+/*# sourceMappingURL=style2.css.map */

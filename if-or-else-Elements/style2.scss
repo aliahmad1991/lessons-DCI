@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: gold;
+}
+
+@mixin link($link, $visit, $hover, $active, $txt-deco) {
+  text-decoration: $txt-deco;
+  color: $link;
+  &:visited {
+    color: $visit;
+  }
+  &:hover {
+    color: $hover;
+  }
+  &:active {
+    color: $active;
+  }
+}
+a {
+  @include link(black, blue, green, gold, none);
+}
+@mixin headline($size, $padd, $color) {
+  padding: $padd;
+  color: $color;
+  font-size: $size;
+}
+
+h1 {
+  @include headline(50px, 100px 50px, green);
+}
