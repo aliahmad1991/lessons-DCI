@@ -1,6 +1,41 @@
 ///.header-title {
 //  font-size: 2rem;
 //}
+
+.right{
+    width: 0px;
+    height: 0px;
+    border-left: 200px solid white;
+    border-right: 200px solid white;
+    border-bottom: 200px solid blue;
+  
+}
+.up{
+    width: 0px;
+    height: 0px;
+    border-left: 200px solid white;
+    border-right: 200px solid white;
+    border-bottom: 200px solid blue;
+  
+}
+.down{
+    width: 0px;
+    height: 0px;
+    border-left: 200px solid white;
+    border-right: 200px solid white;
+    border-bottom: 200px solid blue;
+  
+}
+.left{
+    width: 0px;
+    height: 0px;
+    border-left: 200px solid white;
+    border-right: 200px solid white;
+    border-bottom: 200px solid blue;
+  
+}
+
+
 @mixin phone {
   @media (min-width: 300px) {
     & {
@@ -39,12 +74,22 @@
 $breakpoints2: (
   1: 300px,
   2: 600px,
-  3: 900px
+  3: 900px,
+  
 );
 @mixin for-size-all{
     @for $i from 1 through 3 {
       @media (min-width:#{map-get($breakpoints2, $i)}) {
         column-count: $i;
+       border:#{$i*10}px solid green;
+       background: #{rgba($i*109, $i*159,$i*7, 0.3)}
+
+
+
+        
+
+        
+        
        
       }
     }
