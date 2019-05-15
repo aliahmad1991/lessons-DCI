@@ -9,6 +9,25 @@
   margin-top: 300px;
 }
 
+@-webkit-keyframes ball1 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 950px;
+    top: 0px;
+  }
+  50% {
+    left: 950px;
+    top: 0px;
+  }
+  75% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
 @keyframes ball1 {
   0% {
     left: 0px;
@@ -18,7 +37,35 @@
     left: 950px;
     top: 0px;
   }
+  50% {
+    left: 950px;
+    top: 0px;
+  }
+  75% {
+    left: 0px;
+    top: 0px;
+  }
 }
+
+@-webkit-keyframes ball2 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 950px;
+    top: 0px;
+  }
+  50% {
+    left: 950px;
+    top: 0px;
+  }
+  75% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
 @keyframes ball2 {
   0% {
     left: 0px;
@@ -28,7 +75,35 @@
     left: 950px;
     top: 0px;
   }
+  50% {
+    left: 950px;
+    top: 0px;
+  }
+  75% {
+    left: 0px;
+    top: 0px;
+  }
 }
+
+@-webkit-keyframes ball3 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 950px;
+    top: 0px;
+  }
+  50% {
+    left: 950px;
+    top: 0px;
+  }
+  75% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
 @keyframes ball3 {
   0% {
     left: 0px;
@@ -38,14 +113,28 @@
     left: 950px;
     top: 0px;
   }
+  50% {
+    left: 950px;
+    top: 0px;
+  }
+  75% {
+    left: 0px;
+    top: 0px;
+  }
 }
+
 .ball1 {
   border-radius: 100%;
-  animation: ball1;
-  animation-iteration-count: infinite;
-  animation-delay: 3s;
+  -webkit-animation: ball1;
+          animation: ball1;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
   position: relative;
-  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-transition: 5s;
   transition: 5s;
   width: 300px;
   height: 300px;
@@ -56,11 +145,16 @@
 
 .ball2 {
   border-radius: 100%;
-  animation: ball2;
-  animation-iteration-count: infinite;
-  animation-delay: 3s;
+  -webkit-animation: ball2;
+          animation: ball2;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
   position: relative;
-  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-transition: 5s;
   transition: 5s;
   width: 300px;
   height: 300px;
@@ -71,11 +165,16 @@
 
 .ball3 {
   border-radius: 100%;
-  animation: ball3;
-  animation-iteration-count: infinite;
-  animation-delay: 3s;
+  -webkit-animation: ball3;
+          animation: ball3;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
   position: relative;
-  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-transition: 5s;
   transition: 5s;
   width: 300px;
   height: 300px;
@@ -83,5 +182,4 @@
   background: green;
   float: left;
 }
-
 /*# sourceMappingURL=style.css.map */

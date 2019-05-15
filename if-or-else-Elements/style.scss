@@ -62,17 +62,23 @@
 @keyframes ball1{
     0%{left: 0px; top:0px;}
     25%  {left:950px; top:0px;}
+    50% {left:950px; top:0px;}
+    75% {left:0px; top:0px;}
 
 }
 
 @keyframes ball2{
     0%{left: 0px; top:0px;}
     25%  { left:950px; top:0px;}
+    50% {left:950px; top:0px;}
+    75% {left:0px; top:0px;}
 }
 
 @keyframes ball3{
     0%{left: 0px; top:0px;}
     25%  { left:950px; top:0px;}
+    50% {left:950px; top:0px;}
+    75% {left:0px; top:0px;}
 }
 .ball1{
     @include ball1;
