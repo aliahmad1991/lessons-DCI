@@ -2,20 +2,13 @@
 //  font-size: 2rem;
 //}
 
-.right{
-    width: 0px;
-    height: 0px;
-    border-left: 200px solid white;
-    border-right: 200px solid white;
-    border-bottom: 200px solid blue;
-  
-}
 .up{
     width: 0px;
     height: 0px;
     border-left: 200px solid white;
     border-right: 200px solid white;
     border-bottom: 200px solid blue;
+    margin: 10px;
   
 }
 .down{
@@ -23,15 +16,24 @@
     height: 0px;
     border-left: 200px solid white;
     border-right: 200px solid white;
-    border-bottom: 200px solid blue;
+    border-top: 200px solid yellow;
+    margin: 10px;
   
 }
 .left{
     width: 0px;
     height: 0px;
-    border-left: 200px solid white;
-    border-right: 200px solid white;
-    border-bottom: 200px solid blue;
+    border-left: 200px solid rgb(255, 0, 0);
+    border-top: 200px solid rgb(255, 255, 255);
+    border-bottom: 200px solid white;
+  
+}
+.right{
+    width: 0px;
+    height: 0px;
+    border-left: 200px solid rgb(26, 230, 43);
+    border-top: 200px solid rgb(255, 255, 255);
+    border-bottom: 200px solid rgb(253, 253, 253);
   
 }
 

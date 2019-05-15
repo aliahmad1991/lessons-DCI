@@ -1,17 +1,10 @@
-.right {
-  width: 0px;
-  height: 0px;
-  border-left: 200px solid white;
-  border-right: 200px solid white;
-  border-bottom: 200px solid blue;
-}
-
 .up {
   width: 0px;
   height: 0px;
   border-left: 200px solid white;
   border-right: 200px solid white;
   border-bottom: 200px solid blue;
+  margin: 10px;
 }
 
 .down {
@@ -19,15 +12,24 @@
   height: 0px;
   border-left: 200px solid white;
   border-right: 200px solid white;
-  border-bottom: 200px solid blue;
+  border-top: 200px solid yellow;
+  margin: 10px;
 }
 
 .left {
   width: 0px;
   height: 0px;
-  border-left: 200px solid white;
-  border-right: 200px solid white;
-  border-bottom: 200px solid blue;
+  border-left: 200px solid red;
+  border-top: 200px solid white;
+  border-bottom: 200px solid white;
+}
+
+.right {
+  width: 0px;
+  height: 0px;
+  border-left: 200px solid #1ae62b;
+  border-top: 200px solid white;
+  border-bottom: 200px solid #fdfdfd;
 }
 
 @media (min-width: 300px) {
