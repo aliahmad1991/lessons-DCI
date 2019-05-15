@@ -1,0 +1,21 @@
+@media (min-width: 300px) {
+  .header-title {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  .header-title {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .header-title {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+}
+/*# sourceMappingURL=style.css.map */

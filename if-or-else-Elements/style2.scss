@@ -37,5 +37,5 @@ a {
 }
 
 h1 {
-  @include headline(50px, 100px 50px, green);
+  @include headline(50px, auto, green);
 }
