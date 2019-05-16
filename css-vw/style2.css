@@ -1,0 +1,59 @@
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7;
+  padding: 20px;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(rgba(40, 180, 133, 0.8))), url(hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(hero.jpg);
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100vw 0, 100vw 74vh, 0 100vh);
+          clip-path: polygon(0 0, 100vw 0, 100vw 74vh, 0 100vh);
+  position: relative;
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo-box img {
+  height: 35px;
+}
+
+.header-text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header-text-box .first-text {
+  color: #ffffff;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 4em;
+  font-weight: 400;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.header-text-box .second-text {
+  display: block;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+/*# sourceMappingURL=style2.css.map */

@@ -1,0 +1,58 @@
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.8),
+      rgba(40, 180, 133, 0.8)
+    ),
+    url(hero.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100vw 0, 100vw 74vh, 0 100vh);
+  position: relative;
+}
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.logo-box img {
+  height: 35px;
+}
+
+.header-text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  .first-text {
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 4em;
+    font-weight: 400;
+    backface-visibility: hidden;
+  }
+  .second-text {
+    display: block;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+
+
+  }
+}
+
+
