@@ -1,12 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-        <script type="text/javascript" language="javascript" src="variables2.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Js</title>
+  </head>
+  <body>
+    <script type="text/javascript" language="javascript" src="variables2.js">
+
+      var hour;
+      if(hour<12){alert('Its 12')}
+      else if(hour>12){alert('Its not still 12 ')}
+      else{
+          alert('This is else')
+      }
+    </script>
+
+    <!-- First Example -->
+    <h2>My First JavaScript</h2>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()"
+    >
+      Click here to display Date and Time.
+    </button>
+
+    <p id="demo"></p>
+
+    <!--- Second Example--->
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo2">JavaScript can change HTML content.</p>
+
+    <button
+      type="button"
+      onclick='document.getElementById("demo2").innerHTML = "Hello JavaScript!"'
+    >
+      Click Me!
+    </button>
+
+    <!--- third Example ---->
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <p>
+      In this case JavaScript changes the value of the src (source) attribute of
+      an image.
+    </p>
+
+    <button onclick="document.getElementById('myImage').src='../image/on.jpeg'">
+      Turn on the light
+    </button>
+
+    <img id="myImage" src="../image/off.jpeg" style="width:100px" />
+
+    <button
+      onclick="document.getElementById('myImage').src='../image/off.jpeg'"
+    >
+      Turn off the light
+    </button>
+    <!--- forth Example ---->
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo3">JavaScript can change the style of an HTML element.</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo3').style.fontSize='35px'"
+    >
+      Click Me!
+    </button>
+    <!----- Fifth Example ------>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo4">JavaScript can hide HTML elements.</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo4').style.display='none'"
+    >
+      Click Me!
+    </button>
+
+    <!---- sixth Example ----->
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can show hidden HTML elements.</p>
+
+    <p id="demo5" style="display:none">Hello JavaScript!</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo5').style.display='block'"
+    >
+      Click Me!
+    </button>
+    <!---- seventh Example---->
+
+    <h2>JavaScript in Body</h2>
+
+    <p id="demo6"></p>
+
+    <script>
+      document.getElementById("demo6").innerHTML = "My First JavaScript";
+    </script>
+    <!------ eighth Example ----->
+
+    <h2>My First Web Page</h2>
+    <p>My First Paragraph.</p>
+
+    <p id="demo7"></p>
+
+    <script>
+      document.getElementById("demo7").innerHTML = 5 + 6;
+    </script>
+    <!------ nineth Example ----->
+
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+
+<p>Never call document.write after the document has finished loading.
+It will overwrite the whole document.</p>
+<!----- Using document.write() after an HTML document is loaded, will delete all existing HTML: ---->
+<script>
+document.write(5 + 10);
+</script>
+ <!------ tenth Example ----->
+
+ <h2>My First Web Page</h2>
+ <p>My first paragraph.</p>
+ 
+ <button type="button" onclick="document.write(5 + 11)">Try it</button>
+
+ <!----- eleventh Example  ----->
+
+ <h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+
+<script>
+window.alert(5 + 20*10);
+</script>
+
+<!----- 12th Example  ----->
+
+
+
+  </body>
 </html>
