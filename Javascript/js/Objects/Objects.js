@@ -148,6 +148,13 @@ movies.forEach(function(film){
     }
     });
 /////////////////////////////////////////////////////
-let movie=[1,2,3,4,5];
+
 for(let i=0 ; i < movie.length;i++){
-    console.log(movie[i])};
+if(movie[i].haswatched == true){
+    document.write("<div style='color:green;font-weight:bold'> you watched " + movie[i].title + " has " + movies[i].rat+" stars <span style='color:gold;'>"+ stars(movies[i].rating)+ "</span></div><br><br>");
+}
+else{
+    document.write(" You have to watch " + movies[i].title + " has " + movies[i].rating + "stars <span style='color:gold;'>" +
+    stars(movies[i].rating)+"</span><br><br>");
+}
+};
