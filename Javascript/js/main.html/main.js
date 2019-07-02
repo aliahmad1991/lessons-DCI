@@ -15,9 +15,14 @@ function bgcolor(color){
     body.style.backgroundColor=color;
 
 }
+let counter= 1;
+let width=300;
+let height=300;
 function chgimg(){
     let img= document.getElementById("logoImg");
-    img.setAttribute("src","http://picsum.photos/id/506/300/300");
+    counter++; width+=10 ; height+=10;
+    let newSrc= "http://picsum.photos/id/"+counter+"/"+width +"/"+height;
+    img.setAttribute("src",newSrc);
 
 }
 function chgimg2(){
@@ -30,4 +35,26 @@ function chgimg2(){
     else{
         img.setAttribute("src",firstImg);
     }
+}
+
+
+////////////////////////////////////////////////////////////////////////
+function startAuto(){
+    setInterval()
+}
+
+function showValue(){
+let input=document.getElementById("name");
+alert(input.value);
+}
+
+let p = document.getElementById("paragraph");
+function over(){
+    p.textContent = "stop Hovering me !!!";
+    p.style.color="red";
+}
+function out(){
+    p.textContent="thank you...";
+    p.style.color="green";
+    p.style.fontWeight="bold";
 }
