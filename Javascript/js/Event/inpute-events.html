@@ -7,13 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-<form>
-    <label for="fullName">Enter your Name</label>
-    <input type="text" name="fullName" onblur="inputBlur()" onfocus="myfunction()">
-
-    <label for="email">Enter your Email</label>
-    <input type="email" name="email" onchange="inputChange()" onselect="inputSelect()">
-
+<form method="POST" action="http://www.loghatnameh.de" onsubmit="formSubmit()">
+    <label for="fullName">Enter your Name :</label>
+    <input type="text" name="fullName" onblur="inputBlur()" onfocus="myfunction()" onkeydown="KeyDown()" onkeyup="Keyup()">
+<br>
+<br>
+    <label for="email">Enter your Email :</label>
+    <input type="email" name="email" onchange="inputChange()" onselect="inputSelect()" onkeydown="KeyDown()" onkeyup="Keyup()">
+    <br>
+    <label for="userpass">write your Password</label>
+    <input type="Password" name="userpass">
+    <input type="submit" value="Submit" > 
 
 
 </form>
