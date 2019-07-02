@@ -12,3 +12,6 @@ function inputSelect(){
     input[1].style.background="red";
     alert("You have selected some Text");
 }
+function inputBlur(){
+    input[0].style.background="none"
+}
