@@ -77,3 +77,7 @@ console.log(food.trim());
 let colors=["red","green","yellow","gold"];
 console.log(colors);
 console.log(colors.toString());
+
+///////////////////////////////////////////////////////////
+
+let text="I can walk in the Park all day long"
