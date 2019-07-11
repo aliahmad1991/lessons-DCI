@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validate yor Age</title>
+</head>
+<style>
+body{
+  background: lightblue;
+}
+</style>
+<body>
+    <p>input your Age: <input type="text" id="age"></p>
+    <button type="button" onclick="validate()">Validate</button>
+<!------------------------------------------------------------------>
+
+    <p>first input <input type="text" id="n"> </p>
+    <p>second input <input type="text" id="m"> </p>
+    <button type="button" onclick="divide()">divide</button>
+<!------------------------------------------------------------------>
+<p>Password <input type="text" id="ss"></p>
+<button onclick="enter()">Enter</button>
+
+<!------------------------------------------------------------------>
+<script>
+    function validate(){
+        try{
+            let age= document.getElementById("age").value;
+            console.log("Your age is: " + age);
+            if(age<18)throw" your Age is below 18";
+        }catch(err){
+           alert("Get out of here Kid" + err)
+
+        }
+    }
+    /////////////////////////////////////////////////////
+    function divide(){
+        try{
+        let N=document.getElementById("n").value;
+        let M=document.getElementById("m").value;
+        if(M==0)throw" dividing numbers by 0 is infinite";
+        if(isNaN(N/M)) throw"Probably data contains string";
+        console.log("it is:"+N/M); 
+        
+        }catch(er){
+            alert(er)
+        }
+    }
+   
+    ///////////////////////////////////////////////////////////////
+    let pass=document.getElementById("ss");
+     function enter(){
+       
+        try{
+            
+           document.write(pass.value.length);
+            if(pass.value.length<=6 && pass.value.length !="")throw "Its too short";
+            if(pass.value.length>6   && pass.value.length < 12 )throw"its OK";
+            if(pass.value=="")  throw"impty input";
+            if(pass.value.length>12)throw"its strong enogh";
+            if(!pass.match("[$%!\"\:|&[]{}/?.,*^£!+=-_"))throw"No special Characters provided" 
+            if(!pass.match("[0-9A-Z]"))throw " No alphanumeric provided"
+            
+
+        }catch(password){
+            alert(password)
+
+        }
+
+    }
+
+    </script>
+</body>
+</html>
