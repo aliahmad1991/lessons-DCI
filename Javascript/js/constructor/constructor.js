@@ -60,3 +60,22 @@ console.log(emp2.info());
 
 let emp3= new employee("steven",5000,"node js worker");
 console.log(emp3.info());
+
+//////////////////////////////////////////////////////////////////
+let student={
+    name:"Mara",
+    age:"22",
+    city:"Berlin",
+    University:"T U Berlin",
+    language:"EN",
+    get lang(){
+        return this.language;
+    },
+    set lang(value){
+        this.language=value;
+    }
+};
+
+console.log(student.lang);
+student.lang="DE";
+console.log(student.lang);
