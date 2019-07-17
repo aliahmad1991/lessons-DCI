@@ -27,19 +27,41 @@
   document.write(p.getName()+" "+p.getColor());
 
         class Cat extends Pet{
-            constructor(name,color,age){
+            constructor(name,color,age,sound){
                 super(name,color);
                 this.age=age;
+                this.sound=sound;
                 
             }
             writeAge(){
                 document.write(` and it is  ${this.age} years old`);
             }
-            sound(){
-                document.write("Meow");
+            getSound(){
+               document.write(this.sound);
             }
         }
-        const c=new Cat("kiki","brown",10);
+        const c=new Cat("kiki","brown",10,"Mewoooooooo");
+
+
+        class Dog extends Pet{
+            constructor(name,color,owner,address){
+                super(name,color);
+                this.owner=owner;
+                this.address=address;
+            }
+            WhereIAmLiving(){
+                document.write(`${this.address}`);
+            }
+            whoIsMyOwner(){
+                document.write(`${this.owner}`);
+            }
+            
+        }
+        const d = new Dog("lili","white","Khodeo","MaxStr. 5");
+        
+
+
+
 
     </script>
 </body>
