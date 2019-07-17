@@ -79,3 +79,23 @@ let student={
 console.log(student.lang);
 student.lang="DE";
 console.log(student.lang);
+
+
+function Student(name,age,city,university,language,usd,changeRate){
+    this.name=name;
+    this.age=age;
+    this.city=city;
+    this.university=university;
+    this.language=language;
+    this.bankAccount=usd;
+    this.changeMoney=function(){
+        return this.bankAccount * changeRate;
+        
+    },
+    this.langInfo= function(){
+        return this.language;
+    }
+}
+
+let student1= new Student("Lara","23","Hamburg","Uni Hamburg","Garman",1000,0.8);
+console.log(student1.changeMoney()+" Euro");
