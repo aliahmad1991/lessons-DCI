@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Person</title>
+</head>
+<body>
+    <script>
+    class Person{
+        constructor(firstName,lastName,birthday,address){
+            this.firstName=firstName;
+            this.lastName=lastName;
+            this.address=address;
+            this.birthday=birthday;
+        }
+        greeting(){
+            alert("Hello " + this.firstName + " " + this.lastName);
+        }
+        getBirthDay(){
+            let today=" ";
+            if(today=this.birthday){
+                alert("Happy Birthday "+this.firstName)
+            }
+        }
+    }
+    class Student extends Person{
+        constructor(firstName,lastName,birthday,address,id,university){
+            super(firstName,lastName,birthday,address);
+            this.id=id;
+            this.university=university;
+        }
+        getAge(){
+            let currentDate=new Date();
+           let year = currentDate.getFullYear();
+            let birthDate = new Date(this.birthday);
+      
+            return year - birthDate.getFullYear();
+        }
+        studentInfo(){
+
+        }
+    }
+    let s = new Student("Sara","Johny","2005-05-20","Hamburg",255,"Hamburg Uni");
+    alert(s.firstName + " "+s.lastName+" is "+s.getAge()+" years old")
+    
+    </script>
+</body>
+</html>

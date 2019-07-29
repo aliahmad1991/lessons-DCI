@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rectangle</title>
+</head>
+<body>
+        <p>H: <input type="text" id="height"></p>
+        <p>W: <input type="text" id="width"></p>
+        <p>C: <input type="text" id="color"></p>
+        <p>br: <input type="text" id="bord"></p>
+        <button type="button" onclick="create_rect()">Create</button>
+    <div id="myrect"></div>
+
+    <script>
+        function create_rect(){
+            height = document.getElementById("height").value;
+            width = document.getElementById("width").value;
+            color = document.getElementById("color").value; 
+            borderR = document.getElementById("bord").value;
+            const rect = new Rectangle(height, width, color,borderR);
+            rect.create();
+        }
+        class Rectangle {
+            constructor(height, width, color,borderR) {
+                this.height = height;
+                this.width = width;
+                this.color = color;
+                this.borderR=borderRadius;
+            }
+            create() {
+                let myRect = document.getElementById("myrect");
+                let newDiv = document.createElement("div");
+                myRect.appendChild(newDiv);
+                newDiv.style.height = this.height;
+                newDiv.style.width = this.width;
+                newDiv.style.background = this.color;
+                newDiv.style.borderRadius=this.borderR;
+                //
+            }
+        }
+    </script>
+    
+</body>
+</html>
