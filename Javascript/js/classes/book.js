@@ -45,3 +45,35 @@ console.log(typeof personName);
 
 let personName2 = new String("John Smith");
 console.log(personName2);
+//////////////////////////////////////////////////////
+
+let book1 = new Object();
+book1.bookName="Learn Javascript";
+book1.authorName="John";
+book1.year=2019;
+book1.info=function(){
+    return this.bookName + " published in "+ this.year;
+}
+
+console.log(book1.info());
+
+
+
+function Book(name,author,year){
+    this.bookName=name;
+    this.authorName=author;
+    this.publisherYear=year;
+    this.info=function(){
+        return this.bookName+" is published in "+ this.publisherYear;
+    };
+}
+
+let cssBook = new Book("learning CSS in 30 days",2019);
+for ( let i in cssBook){
+    console.log(cssBook[i]);
+}
+///////////////////////////////////
+
+
+
+
