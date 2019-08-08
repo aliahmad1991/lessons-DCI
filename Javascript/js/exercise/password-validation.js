@@ -12,5 +12,5 @@ function checkLength(input){
 pass.addEventListener("keyup",function(){
    checkLength(pass);
 
-});
+}); 
 

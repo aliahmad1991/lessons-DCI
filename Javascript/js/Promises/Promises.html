@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Promise</title>
+</head>
+<body>
+    
+<script>
+
+var myDelay=2000;
+// Promis
+var willIGetDBResponse = new Promise(
+    function(resolve,reject){
+        if(myDelay<3000){
+            var response={
+                username:"johnsmith",
+                name:"John",
+                surname:"Smith"
+            }
+            setInterval(function(){
+            resolve(response);
+            },3000);
+
+        }else{
+            var error=new Error("it took too long");
+            setInterval(function(){
+            reject(error);
+            },3000)
+        }
+    }
+);
+var sendRequest = function(){
+    willIGetDBResponse
+    .then(function(response){
+        console.log(response);
+    })
+    .catch(function(error){
+        console.error(error.message);
+    })
+}
+    sendRequest();
+    
+</script>
+
+
+</body>
+</html>
