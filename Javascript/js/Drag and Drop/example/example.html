@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+​
 <head>
     <style>
         .dragdrop {
@@ -9,7 +9,11 @@
             float: left;
             margin: 10px;
             padding: 10px;
-            border: 1px solid magenta;
+            border: 3px solid magenta;
+        }
+        .hovering{
+            background:lightblue;
+            border-style: dashed;
         }
     </style>
     <meta charset="UTF-8">
@@ -17,7 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-
+​
 <body>
         
         
@@ -25,17 +29,17 @@
             <img  ondragstart="start(event)" id="dragImg"   src="https://source.unsplash.com/random/180x180" alt=""
             draggable="true" />
     </div>
-
-    <div class="dragdrop"  ondrop="drop(event)" ondragover="dragOver(event)"></div>
-
-    <div class="dragdrop"  ondrop="drop(event)" ondragover="dragOver(event)"></div>
-
-    <div class="dragdrop"  ondrop="drop(event)" ondragover="dragOver(event)"></div>
-
-    <div class="dragdrop"  ondrop="drop(event)" ondragover="dragOver(event)"></div>
-
-
+​
+    <div class="dragdrop" ondragleave="dragLeave(event)" ondragenter="dragEnter(event)" ondrop="drop(event)" ondragover="dragOver(event)"></div>
+​
+    <div class="dragdrop" ondragleave="dragLeave(event)" ondragenter="dragEnter(event)" ondrop="drop(event)" ondragover="dragOver(event)"></div>
+​
+    <div class="dragdrop" ondragleave="dragLeave(event)" ondragenter="dragEnter(event)" ondrop="drop(event)" ondragover="dragOver(event)"></div>
+​
+    <div class="dragdrop" ondragleave="dragLeave(event)" ondragenter="dragEnter(event)" ondrop="drop(event)" ondragover="dragOver(event)"></div>
+​
+​
     <script src="example.js"></script>
 </body>
-
+​
 </html>
