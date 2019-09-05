@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.2.0/handlebars.min.js" integrity="sha256-fIuSfP8oRbwWG9pRr+FaGfBU62kYY+7YqUsXSCgnYqM=" crossorigin="anonymous"></script>
+        <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HB Each Loop</title>
+
+</head>
+<body>
+    
+        <script id="hb-intro" type="text/x-handlebars-template" >
+            <h1 class="m-5">My list{{name}}</h1>
+        <ul class="text-light bg-warning  m-5 col-10">
+            {{#each mylist}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <p class="m-5">Made by {{author}}</p>
+
+        <ul class="text-light bg-dark  m-5  col-10"> 
+                {{#each friends}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </script>
+        <script>
+    
+                var template=$('#hb-intro').html();
+                
+                var templateScript=Handlebars.compile(template);
+                
+                var context={"mylist":["Boris Johnson","Theresa May"],"name":" of dummies","friends":["Harry behkam","Michel jackson "],"author":"Public Services"};
+                var html=templateScript(context);
+                $(document.body).append(html);
+                </script>
+                
+
+
+</body>
+</html>

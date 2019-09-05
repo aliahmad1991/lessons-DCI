@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.2.0/handlebars.min.js" integrity="sha256-fIuSfP8oRbwWG9pRr+FaGfBU62kYY+7YqUsXSCgnYqM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Handle Cards</title>
+</head>
+<html>
+    <body>
+            <script id="hb-intro" type="text/x-handlebars-template" >
+        <div class="m-5 ">
+            <div class="card float-left mr-5 bg-primary   border-danger rounded" style="width: 18rem;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Bradley_Cooper_avp_2014_2.jpg" height="380px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><b>actor:</b> {{maleName}}</li>
+                                    <li class="list-group-item"><b>age:</b>{{num1}}</li>
+                                </ul>
+                    </div>
+                  </div>
+                  <div class="card float-left mr-5 bg-primary  border-danger rounded" style="width: 18rem;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Abbie_Cornish_%288140596577%29.jpg"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <ul class="list-group list-group-flush">
+                              <li class="list-group-item"><b>actoress:</b> {{femaleName}}</li>
+                              <li class="list-group-item"><b>age:</b>{{num2}}</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </div>
+                   
+
+</script>
+<script>
+    
+        var template=$('#hb-intro').html();
+        
+        var templateScript=Handlebars.compile(template);
+        
+        var context={"maleName":"bradley cooper","num1":"44","femaleName":"Abbie Cornish","num2":"37"};
+        var html=templateScript(context);
+        $(document.body).append(html);
+        </script>
+
+
+
+
+    </body>
+</html>
