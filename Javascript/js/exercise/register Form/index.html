@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+    #first{
+        margin:auto;
+        margin-top: 100px;
+        height:500px;
+        width: 950px;
+        background: lightblue;
+    }
+    #second{
+        margin:auto;
+        margin-top: 100px;
+        height:400px;
+        width: 950px;
+        background: lightblue;
+    }
+    #third{
+        margin:auto;
+        margin-top: 100px;
+        height:400px;
+        width: 950px;
+        background: lightblue;
+    }
+    
+    </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Form</title>
+</head>
+<body style="background:gray">
+
+
+    <div id="first" class="container">
+    <h1 class="m-5">Personal Info</h1>
+            <div class="form-group row">
+                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">First name:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter your First name">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Last name:</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter your last name">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                            <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Birth date:</label>
+                            <div class="col-sm-10">
+                              <input type="date" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter your Birth date">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Nationality:</label>
+                                <div class="col-sm-10">
+                                  <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter your Nationality">
+                                </div>
+                              </div>
+                              <button id="fbtn" type="button" class="btn btn-secondary btn-lg btn-block font-weight-bolder">Next </button>               
+    
+
+    </div>
+
+    <div id="second" class="container d-none">
+            <h1 class="m-5">Personal Info</h1>
+                        <div class="form-group row">
+                                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">address:</label>
+                                <div class="col-sm-10">
+                                  <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter your Address">
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">House number:</label>
+                                    <div class="col-sm-10">
+                                      <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter the house number">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row">
+                                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">zipcode</label>
+                                        <div class="col-sm-10">
+                                          <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter zipcode">
+                                        </div>
+                                      </div>                                        
+                                      <button type="button" class="btn btn-secondary btn-lg col-5 font-weight-bolder">previous </button>               
+                                      <button type="button" class="btn btn-secondary btn-lg col-6 font-weight-bolder">Next </button> 
+        
+                </div>
+            
+                <div id="third" class="container d-none">
+                        <h1 class="m-5">Personal Info</h1>
+                                    <div class="form-group row">
+                                            <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Password:</label>
+                                            <div class="col-sm-10">
+                                              <input type="password" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter Password">
+                                            </div>
+                                          </div>
+                                          <div class="form-group row">
+                                                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">repeat the password:</label>
+                                                <div class="col-sm-10">
+                                                  <input type="password" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter password again">
+                                                </div>
+                                              </div>
+                                              <input class="m-2" type="checkbox">Confirm<br><br>
+                                             
+                                                      <button type="button" class="btn btn-secondary btn-lg col-5 font-weight-bolder">previous </button>               
+                                                      <button type="button" class="btn btn-secondary btn-lg col-6 font-weight-bolder">Next </button> 
+                        
+                                                   </div>
+            
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
