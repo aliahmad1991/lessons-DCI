@@ -1,2 +1,2 @@
 import sayHello from './hello.js';
-sayHello();
+sayHello(); 
