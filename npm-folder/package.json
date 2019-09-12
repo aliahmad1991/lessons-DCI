@@ -1,19 +1,12 @@
 {
-  "name": "npm-project",
+  "name": "npm-folder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/aliahmad1991/Something-bullshit.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aliahmad1991/Something-bullshit/issues"
-  },
-  "homepage": "https://github.com/aliahmad1991/Something-bullshit#readme"
+  "keywords": [],
+  "author": "Ali",
+  "license": "ISC"
 }
