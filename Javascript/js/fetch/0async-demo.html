@@ -12,25 +12,37 @@
     // f2(); // f2 will not wait until f1 finished
     // f3(); // f3 will not wait until f3 finished
 
-        function checkUser(){
+        function checkUser(callback){// calback input
             setTimeout(function(){
                 console.log("Checking user...");
+                callback();// callback pull
             },3000); // 3sec timeout
         }
-        function downloadFile(){
+        function downloadFile(callback){ // calback input
             setTimeout(function(){
                 console.log("Downloading File...");
+                callback();// callback pull
             },2000); // 2sec timeout
         }
-        function closeSession(){
-            setTimeout(function(){
+        function closeSession(callback){ // calback input
+            setTimeout(function(){// callback pull
                 console.log("Closing the Session...");
+                callback();// callback pull
             },1000); // 1sec timeout
         }
         function run(){
-        checkUser();
-        downloadFile();
-        closeSession();
+
+        checkUser(function(){
+             downloadFile(function(){
+                  closeSession(function(){
+                      // all three functions at this point have completed
+                      
+                  });
+             });
+        });
+       
+       
+
 
         }
        
