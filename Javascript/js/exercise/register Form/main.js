@@ -90,7 +90,23 @@ btns.forEach(function(item){
 
 function showDate(){
     let fName = document.getElementsByName("firstName")[0].value;
-    let lName=document.getElementsByName("lastname")[0].value;
-    let bDate=document.getElementsByName("birthDate")[0].value;
-    let nationality=document.getElementsByName("nationality")[0].value;
+    let laName = document.getElementsByName("lastName")[0].value;
+    let bDate = document.getElementsByName("birthDate")[0].value;
+    let nationality = document.getElementsByName("nationality")[0].value;
+    let address = document.getElementsByName("address")[0].value;
+    let houseNum = document.getElementsByName("houseNumber")[0].value;
+    let zipeCode = document.getElementsByName("zipCode")[0].value;
+    let uName = document.getElementsByName("userName")[0].value;
+    let psw = document.getElementsByName("password")[0].value;
+    let imgfile = document.getElementsByName("imageFile")[0].value;
+
+    document.getElementById("nameLabel").innerText=fName+" "+laName;
+    document.getElementById("birthDateLabel").innerText=bDate;
+    document.getElementById("nationalityLabel").innerText=nationality;
+    document.getElementById("addressLabel").innerText=address+" "+houseNum+" "+zipeCode;
+    document.getElementById("userforLabel").innerText=uName;
+    document.getElementById("passwordLabel").innerText=psw;
+    document.getElementById("photoLabel").innerText=imgfile;
+
 }
+
