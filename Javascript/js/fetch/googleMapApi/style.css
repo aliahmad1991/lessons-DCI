@@ -1,0 +1,18 @@
+#map{
+    height: 100%;
+
+}
+html,body{
+margin: 0;
+height: 100%;
+padding: 0;
+}
+.container{
+    margin-left: 50px;
+    padding: 10px;
+}
+input[type="submit"]{
+    background: lightblue;
+    padding: 5px;
+
+}
