@@ -8,13 +8,13 @@ function initMap(){
 
 
 let btn=document.getElementById("btn");
-let input1=document.querySelectorAll("input")[0].value;
-let input2=document.querySelectorAll("input")[1].value;
+let input1=document.querySelectorAll("input")[0];
+let input2=document.querySelectorAll("input")[1];
 
 btn.addEventListener("click",update);
 function update(){
-let uLat = input1;
-let uLng = input2;
+let uLat = input1.value;
+let uLng = input2.value;
 map.setCenter(new google.maps.LatLng(parseFloat(uLat),parseFloat(uLng)));
 
 }
