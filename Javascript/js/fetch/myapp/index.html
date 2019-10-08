@@ -7,15 +7,46 @@
     <title>Fetch Resources</title>
 </head>
 <body>
-    <img src="http://192.168.8.137:3000/hamburg.png" alt="">
-
+        
+<table>
+<thead>
+    <tr>
+        <td>state</td>
+        <td>capital</td>
+        <td>population</td>
+        <td>image</td>
+    </tr>
+</thead>
+<tbody id="tbody"></tbody>
+</table>
     <script>
     
     var fetchApi = async function(){
        const resp = await fetch('http://192.168.8.137:3000/states');
        const myJson = await resp.json();
-       console.log(JSON.stringify(myJson)); 
+       //document.write(JSON.stringify(myJson));
+
+       // console.log(JSON.stringify(myJson));
+       
+       tbody = document.getElementById("tbody");
+
+       var text = '';
+       myJson.forEach(myFunc);
+       
+        function myFunc(item, index) {
+            console.log(index, item);
+            var image= "";
+            
+            text += "<tr><td>" + item.state + "</td><td>" + item.capital + "</td>"+"<td>"+" "+item.population +" "+`<td><img src="${item.image}" alt=""></td>`; 
+        }
+        console.log(text);
+        tbody.innerHTML = text;
     }
+
+    fetchApi();
+
+    
+   
     
     
     </script>
