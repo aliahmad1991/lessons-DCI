@@ -17,7 +17,7 @@ addColumn=(numCols)=>{
 render(){
     return(
         <div className="App">
-            <Container>
+            <Container className="containerClass">
                 <Row>
                     <Col md={2}>
 <Dropdown>
@@ -39,7 +39,7 @@ render(){
 </Col>
 <Col md={10}>
 <Row>
-    <Columns/>
+    <Columns number={this.state.numCols} themes={this.state.themes}/>
 </Row>
 </Col>
 
