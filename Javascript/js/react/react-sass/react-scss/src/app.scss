@@ -1,0 +1,19 @@
+$my-background:url('./images/girl.jpg');
+$my-color:lightblue;
+body{
+    background-repeat: no-repeat;
+    background: $my-background;
+    background-size: cover;
+    color: $my-color;
+}
+div{
+    text-align: center;
+    h1{
+        font-family:Verdana;
+        color: yellowgreen;
+    }
+    img{
+        width:400px;
+        height: 500px;
+    }
+}
