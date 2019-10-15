@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+body{
+  font:100% Helvetica;
+  color:#333;
+  background:lightgreen;
+}
