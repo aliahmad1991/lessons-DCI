@@ -31,19 +31,20 @@ class TodoList extends Component{
     return true;
 }
 
-removeTodoList=()=>{
-  alert("you want to delete ???");
+removeTodoList=(item)=>{
+  //alert("you want to delete ???");
   let myList = this.state.todoList;
-  console.log(myList);
-}
+  myList.splice(item, 1);
+  
 
+this.setState({
+  todoList:myList
+})
+}
   render(){
     return(
       <div className='App'>
-      {todoItems.map((item)=>{
-      return <h1>{item.task}</h1>
-      })
-      }
+     
       <InputTodo todoValue={this.state.todoValue} changed={(e)=>this.changeToDoValue(e)} />
       <button onClick={()=> this.addToList()} disabled={this.isValid()? '':"Please Enter some Shit"}> add to the list </button>
       <button onClick={()=> this.clearList()}>clear</button>
