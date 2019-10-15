@@ -18,11 +18,25 @@ class TodoList extends Component{
     this.setState({todoValue:e.target.value})
   }
   addToList(){
-    let list = this.state. todoList;
+    let list = this.state.todoList;
     list.push(this.state.todoValue);
     this.setState({todoList : list , todoValue : ''})
     console.log(this.state.todoList);
   }
+
+  isValid=()=>{
+    if(this.state.todoValue === ""){
+        return false;
+    }
+    return true;
+}
+
+removeTodoList=()=>{
+  alert("you want to delete ???");
+  let myList = this.state.todoList;
+  console.log(myList);
+}
+
   render(){
     return(
       <div className='App'>
@@ -31,8 +45,9 @@ class TodoList extends Component{
       })
       }
       <InputTodo todoValue={this.state.todoValue} changed={(e)=>this.changeToDoValue(e)} />
-      <button onClick={()=> this.addToList()}> add to the list </button>
-      <ListTodo list={this.state.todoList}/>
+      <button onClick={()=> this.addToList()} disabled={this.isValid()? '':"Please Enter some Shit"}> add to the list </button>
+      <button onClick={()=> this.clearList()}>clear</button>
+      <ListTodo list={this.state.todoList} remove={(item)=>this.removeTodoList(item)}/>
     </div>
     )
 }

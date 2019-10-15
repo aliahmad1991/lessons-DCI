@@ -8,8 +8,9 @@ export default function Input(props) {
               <input  onChange={props.onChange} id={props.id} type={props.type} placeholder={props.placeholder} value={props.value}/>  
               <div className="errorMessage">{props.errorMessage}</div>
 
-
+              
             </div>
+
         )
     
 }

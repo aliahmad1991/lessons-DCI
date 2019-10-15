@@ -39,7 +39,7 @@ isValid=()=>{
                 errorMessage={this.isValid() ? '':'This field is required'}
                 value={this.state.todo} id="todo" placeholder="Enter some Text" type="text"/>
                 
-                <button disabled={!this.isValid()} type="submit">Submit</button>
+                <button className="btn btn-primary" disabled={!this.isValid()} type="submit">Submit</button>
             </form>
 
 
