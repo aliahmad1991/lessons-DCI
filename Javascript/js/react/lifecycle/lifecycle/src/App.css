@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.wrapper{
+  width: 60%;
+  margin: 30px;
+  border:2px solid lightgreen;
+  border-radius: 15px;
+  padding: 25px;
+}
+.list{
+  list-style-type:none;
+  cursor: pointer;
+}
+.list li{
+padding: 10px 20px;
+background: lime;
+border:1px solid blue;
+border-radius:15px;
+font-weight: bold;
+font-size: 30px;
+margin: 5px;
+}
+.list:hover{
+background: maroon;
+color:red;
+}
+.btn{
+  padding:10px;
+  background:gold;
+  margin:10px auto;
+  font-size: 20px;
+  display: block;
+  border-radius:15px;
+  box-shadow: 0 5px 5px 0 gray;
+
+}
