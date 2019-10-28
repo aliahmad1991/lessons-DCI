@@ -1,0 +1,52 @@
+.App {
+  text-align: left;
+  color: aliceblue;
+  padding: 0px;
+  font-size: 2rem;
+  background: lightblue;
+  width: 800px ;
+  height:auto;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+.Head{
+  width:800px ;
+  height: 120px;
+  border: 1px solid black;
+ 
+}
+.Head p{
+  overflow: hidden;
+  float: left;
+  margin-right: 400px;
+}
+p{
+  margin-left: 10px;
+}
+input{
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+button{
+padding:10px ;
+border:1px solid black;
+margin-left:5px;
+color:white;
+background: lightgray;
+box-shadow: 2px 2px 2px 0px black;
+}
+th,td{
+  border:1px solid black;
+ color:black;
+ background: lightgreen;
+}
+.header h2{
+position: relative;
+display: inline-block;
+font-size: 30px;
+margin-top: 85px;
+
+}

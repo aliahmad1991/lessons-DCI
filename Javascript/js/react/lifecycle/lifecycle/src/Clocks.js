@@ -6,7 +6,7 @@ export default class Clocks extends Component {
     constructor(props) {
         super(props)
         this.state = {
-             countries:['Europe/Berlin','Asia/Kabul','America/Bogota'],
+             countries:['Europe/Berlin','Asia/Kabul','Asia/Tokyo'],
              time:new Date()
         }
     }
@@ -20,9 +20,12 @@ export default class Clocks extends Component {
     }
 
     render() {
+        let countriesList=this.state.countries.map((item)=>{
+            return <Ctime time={this.state.time} timezone={item} />
+        })
         return (
             <div>
-             <Ctime time={this.state.time} timezone={this.state.countries[0]}/>
+            {countriesList}
             </div>
         )
     }

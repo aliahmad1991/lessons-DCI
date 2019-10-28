@@ -19,7 +19,7 @@ export default class Ctime extends Component {
     render() {
         return (
             <div>
-             <h2>the Time in Europe/Berlin is: {this.state.time.toLocaleTimeString("de-DE",{timeZone:this.state.timezone})} </h2>
+             <h2> {this.state.time.toLocaleTimeString("de-DE",{timeZone:this.state.timezone})} </h2>
  
             </div>
         )

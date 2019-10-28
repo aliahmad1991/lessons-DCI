@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  font-size: 3rem;
+  background: blueviolet;
+  color: aliceblue;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li{
+  list-style-type: none;
+  padding: 0px;
+  margin: 5px;
+  float: left;
+font-size: 2rem;
+border-radius:10px ;
+}
+a{
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+li a:hover{
+background:#111fff ;
+font-size: larger;
+}
