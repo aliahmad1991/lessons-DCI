@@ -4,8 +4,9 @@ export default class Me extends Component {
     render() {
         return (
             
-            <div >
-             <img src="http://picsum.photos/id/435/150/150" alt="#"/>
+            <div className="App">
+                
+             <img src="https://pixabay.com/get/54e3d140434fb14cf6db8d7ac62b307b083edbe251527440722679/pumpkin-23439.png" width="200px" alt="#"/>
 
              <div className="Me">
               <h1>My name</h1>  
@@ -16,7 +17,7 @@ export default class Me extends Component {
                    quam molestias quaerat.</p>
                    <h2>Some Websites I frequently use:</h2>
 
-                   
+                   <i class="fa fa-y-combinator" aria-hidden="true"></i>
                 </div>
             </div>
         )

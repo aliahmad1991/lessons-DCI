@@ -1,5 +1,6 @@
 .App {
   text-align: left;
+  
 }
 body{
   background: lightslategray;
@@ -12,9 +13,29 @@ p{
 }
 img{
   float: left;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .Me{
   width: 500px;
 margin: auto;
+}
+.Header{
+  height: 120px;
+  width: vw;
+  border-bottom:2px solid beige;
+}
+li{
+  float: left;
+  list-style: none;
+  font-size: 1.5rem;
+  border-left:3px solid black;
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  
+}
+a{
+  text-decoration: none;
+  margin: 5px;
+  
 }
