@@ -31,11 +31,22 @@ li{
   border-left:3px solid black;
   padding: 0px;
   margin: 0px;
-  color: black;
+ 
+ 
   
 }
 a{
   text-decoration: none;
   margin: 5px;
-  
+  color: white;
+}
+.Header{
+  background: url(images/11.jpg);
+  background-size: cover;
+  background-position: 0px;
+  background-position-y: 300px;
+}
+ul{
+  position: absolute;
+  top: 90px;
 }
