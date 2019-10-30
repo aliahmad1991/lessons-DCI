@@ -6,7 +6,7 @@ export default class Me extends Component {
             
             <div className="App">
                 
-             <img src="https://pixabay.com/get/54e3d140434fb14cf6db8d7ac62b307b083edbe251527440722679/pumpkin-23439.png" width="200px" alt="#"/>
+             <img src="https://pixabay.com/get/52e5dd424257af14ea9d857ece2f367d123ac3e45656734d712e73d694/blueberries-4581853.jpg" width="200px" alt="#"/>
 
              <div className="Me">
               <h1>My name</h1>  
