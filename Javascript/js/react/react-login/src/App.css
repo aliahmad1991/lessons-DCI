@@ -1,0 +1,19 @@
+body{
+  background-color: #282c34;
+
+}
+
+.App {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a{
+  padding: 10px;
+  background:gray;
+  margin: 5px;
+}
