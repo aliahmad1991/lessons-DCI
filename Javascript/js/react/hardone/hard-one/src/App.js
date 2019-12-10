@@ -1,14 +1,13 @@
-import React,{Component}from 'react';
-import {softshadow} from 'hardshadow';
 import './App.css';
-
+import React, { Component } from 'react'
+import { softshadow  }  from 'coolshadow';
 export default class App extends Component {
- componentDidMount(){
-  softshadow({
-     shadow_type:'hard',
-     padding:true
-   })
- }
+  componentDidMount(){
+    softshadow({
+      shadow_type : 'hard',
+      padding: true
+  })
+  }
   render() {
     return (
       <div>

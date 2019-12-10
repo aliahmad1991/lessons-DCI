@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">about</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="services.html" tabindex="-1" aria-disabled="true">Services</a>
+            </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="/users" tabindex="-1" aria-disabled="true">Users</a>
+          </li>
+        </ul> 
+       
+        </div>
+      </nav>
+      <div class="container">
+          <div class="bg-warning w-50 rounded">
+<h1>Home Page</h1>
+<h1>This is the Home page</h1>
+<h4>Subscribe to our newsletters</h4>
+</div>
+<form method="POST" action="/subscribe">
+<div class="form-group">
+    <label for="">Email</label>
+    <input type="text" class="form-control col-sm-5" name="email" placeholder="Email">
+</div>
+<div class="form-group">
+    <label for="">Name</label>
+    <input type="text" class="form-control col-sm-5" name="name" placeholder="Name">
+</div>
+<input type="submit" class="btn btn-primary" value="submit" >
+</form>
+</div>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
